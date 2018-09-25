@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG5198/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(237895_Chro_30252,(3702_AT5G10480_1,((6239_T15B7_2_2,((7227_CG6746_PA,(10090_ENSMUSP00000060462,7955_ENSDARP00000022289)),(7227_CG9267_PA,(10090_ENSMUSP00000074397,9606_ENSP00000355308)))),4932_YJL097W)));
+
+
+The minimum reconciliation cost is: 6
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[10090_ENSMUSP00000060462, 7955_ENSDARP00000022289]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[7227_CG6746_PA, 7955_ENSDARP00000022289]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[10090_ENSMUSP00000074397, 9606_ENSP00000355308]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7227_CG9267_PA, 9606_ENSP00000355308]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[7227_CG6746_PA, 9606_ENSP00000355308]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[6239_T15B7_2_2, 9606_ENSP00000355308]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n19, 100 times].
+LCA[6239_T15B7_2_2, 4932_YJL097W]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n18, 100 times].
+LCA[3702_AT5G10480_1, 4932_YJL097W]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[237895_Chro_30252, 4932_YJL097W]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n15, 100 times].

@@ -1,0 +1,33 @@
+Input file: ../raw-data/original_seqs/COG5440/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((224325_AF2410,272557_APE1699),187420_MTH1410),(2287_SSO2790,2287_SSO3186));
+((224325_AF2410,272557_APE1699),(187420_MTH1410,(2287_SSO2790,2287_SSO3186)));
+(224325_AF2410,(272557_APE1699,(187420_MTH1410,(2287_SSO2790,2287_SSO3186))));
+(((187420_MTH1410,(2287_SSO2790,2287_SSO3186)),224325_AF2410),272557_APE1699);
+(((2287_SSO2790,2287_SSO3186),(224325_AF2410,272557_APE1699)),187420_MTH1410);
+
+
+The minimum reconciliation cost is: 8
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[2287_SSO2790, 2287_SSO3186]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 2287, 100 times].
+LCA[2287_SSO2790, 2287_SSO3186]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 2287, 100 times].
+LCA[2287_SSO2790, 2287_SSO3186]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 2287, 100 times].
+LCA[2287_SSO2790, 2287_SSO3186]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 2287, 100 times].
+LCA[2287_SSO2790, 2287_SSO3186]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 2287, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[187420_MTH1410, 272557_APE1699]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n13, 100 times].
+LCA[224325_AF2410, 2287_SSO3186]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224325, 50 times], [Most Frequent recipient --> 224325, 50 times].
+LCA[224325_AF2410, 2287_SSO3186]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n13, 100 times].
+LCA[224325_AF2410, 2287_SSO3186]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n13, 100 times].
+LCA[2287_SSO2790, 187420_MTH1410]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 187420, 52 times], [Most Frequent recipient --> n13, 52 times].

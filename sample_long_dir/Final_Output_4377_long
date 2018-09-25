@@ -1,0 +1,33 @@
+Input file: ../raw-data/original_seqs/COG4377/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224308_BSU10180,(((260799_BAS2794,260799_BAS4835),170187_SP1391),267608_RSp0010));
+(((260799_BAS2794,260799_BAS4835),170187_SP1391),(267608_RSp0010,224308_BSU10180));
+((260799_BAS2794,260799_BAS4835),(170187_SP1391,(267608_RSp0010,224308_BSU10180)));
+(((267608_RSp0010,224308_BSU10180),(260799_BAS2794,260799_BAS4835)),170187_SP1391);
+((224308_BSU10180,((260799_BAS2794,260799_BAS4835),170187_SP1391)),267608_RSp0010);
+
+
+The minimum reconciliation cost is: 8
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[260799_BAS2794, 260799_BAS4835]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 260799, 100 times].
+LCA[260799_BAS2794, 260799_BAS4835]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 260799, 100 times].
+LCA[260799_BAS2794, 260799_BAS4835]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 260799, 100 times].
+LCA[260799_BAS2794, 260799_BAS4835]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 260799, 100 times].
+LCA[260799_BAS2794, 260799_BAS4835]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 260799, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224308_BSU10180, 267608_RSp0010]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 50 times], [Most Frequent recipient --> 267608, 50 times].
+LCA[224308_BSU10180, 267608_RSp0010]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2794, 224308_BSU10180]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2794, 224308_BSU10180]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[267608_RSp0010, 170187_SP1391]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 56 times], [Most Frequent recipient --> n34, 56 times].

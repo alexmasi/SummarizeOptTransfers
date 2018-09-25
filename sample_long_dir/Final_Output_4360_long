@@ -1,0 +1,39 @@
+Input file: ../raw-data/original_seqs/COG4360/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(74547_PMT0732,((103690_alr4466,269084_syc0057_d),(74109_PBPRA1434,(4932_YDR530C,4932_YCL050C))));
+((103690_alr4466,269084_syc0057_d),((74109_PBPRA1434,(4932_YDR530C,4932_YCL050C)),74547_PMT0732));
+((74547_PMT0732,(103690_alr4466,269084_syc0057_d)),(74109_PBPRA1434,(4932_YDR530C,4932_YCL050C)));
+(74109_PBPRA1434,((4932_YDR530C,4932_YCL050C),(74547_PMT0732,(103690_alr4466,269084_syc0057_d))));
+(((74547_PMT0732,(103690_alr4466,269084_syc0057_d)),74109_PBPRA1434),(4932_YDR530C,4932_YCL050C));
+(4932_YDR530C,(4932_YCL050C,((74547_PMT0732,(103690_alr4466,269084_syc0057_d)),74109_PBPRA1434)));
+((((74547_PMT0732,(103690_alr4466,269084_syc0057_d)),74109_PBPRA1434),4932_YDR530C),4932_YCL050C);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[103690_alr4466, 269084_syc0057_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[103690_alr4466, 74547_PMT0732]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n83, 100 times].
+LCA[4932_YDR530C, 74109_PBPRA1434]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 4932, 100 times].
+LCA[74109_PBPRA1434, 269084_syc0057_d]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 74109, 48 times], [Most Frequent recipient --> 74109, 52 times].
+LCA[74547_PMT0732, 4932_YCL050C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 4932, 46 times], [Most Frequent recipient --> 4932, 54 times].
+LCA[74547_PMT0732, 4932_YCL050C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n83, 54 times], [Most Frequent recipient --> n83, 46 times].
+LCA[74547_PMT0732, 4932_YCL050C]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 4932, 100 times].
+LCA[74547_PMT0732, 4932_YCL050C]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n83, 100 times].

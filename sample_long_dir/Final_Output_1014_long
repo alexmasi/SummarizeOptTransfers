@@ -1,0 +1,27 @@
+Input file: ../raw-data/original_seqs/COG1014/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((226186_BT2836,242619_PG0429),(272557_APE2126,194439_CT0163)),(117_RB6935,((100226_SCO6270,100226_SCO4595),(83331_MT2530,258594_RPA1714))));
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[226186_BT2836, 242619_PG0429]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n90, 100 times].
+LCA[272557_APE2126, 194439_CT0163]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 100 times], [Most Frequent recipient --> 272557, 100 times].
+LCA[226186_BT2836, 194439_CT0163]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n89, 100 times].
+LCA[100226_SCO6270, 100226_SCO4595]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 100226, 100 times].
+LCA[83331_MT2530, 258594_RPA1714]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n99, 51 times], [Most Frequent recipient --> 258594, 100 times].
+LCA[100226_SCO6270, 258594_RPA1714]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[117_RB6935, 258594_RPA1714]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n92, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[226186_BT2836, 258594_RPA1714]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n87, 100 times].

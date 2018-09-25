@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG4812/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(212717_CTC02171,(((209261_t0392,83333_b2459),272626_lin1145),190304_FN0085));
+(((209261_t0392,83333_b2459),272626_lin1145),(190304_FN0085,212717_CTC02171));
+((209261_t0392,83333_b2459),(272626_lin1145,(190304_FN0085,212717_CTC02171)));
+(209261_t0392,(83333_b2459,(272626_lin1145,(190304_FN0085,212717_CTC02171))));
+(((272626_lin1145,(190304_FN0085,212717_CTC02171)),209261_t0392),83333_b2459);
+(((190304_FN0085,212717_CTC02171),(209261_t0392,83333_b2459)),272626_lin1145);
+((212717_CTC02171,((209261_t0392,83333_b2459),272626_lin1145)),190304_FN0085);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190304_FN0085, 272626_lin1145]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272626, 47 times], [Most Frequent recipient --> 272626, 53 times].
+LCA[209261_t0392, 212717_CTC02171]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 30 times], [Most Frequent recipient --> n73, 30 times].
+LCA[209261_t0392, 212717_CTC02171]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n73, 48 times], [Most Frequent recipient --> n73, 52 times].
+LCA[209261_t0392, 212717_CTC02171]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].
+LCA[212717_CTC02171, 190304_FN0085]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 42 times], [Most Frequent recipient --> 190304, 58 times].
+LCA[212717_CTC02171, 190304_FN0085]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 46 times], [Most Frequent recipient --> 212717, 54 times].
+LCA[272626_lin1145, 83333_b2459]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].

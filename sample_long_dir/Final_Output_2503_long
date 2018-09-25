@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG2503/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((71421_HI0693,(242619_PG0924,190485_AE008922_GR_4928057_4929013)),85962_HP1285),(93061_SAOUHSC_00284,260799_BAS4406));
+((71421_HI0693,(242619_PG0924,190485_AE008922_GR_4928057_4929013)),(85962_HP1285,(93061_SAOUHSC_00284,260799_BAS4406)));
+(71421_HI0693,((242619_PG0924,190485_AE008922_GR_4928057_4929013),(85962_HP1285,(93061_SAOUHSC_00284,260799_BAS4406))));
+(((85962_HP1285,(93061_SAOUHSC_00284,260799_BAS4406)),71421_HI0693),(242619_PG0924,190485_AE008922_GR_4928057_4929013));
+(242619_PG0924,(190485_AE008922_GR_4928057_4929013,((85962_HP1285,(93061_SAOUHSC_00284,260799_BAS4406)),71421_HI0693)));
+((((85962_HP1285,(93061_SAOUHSC_00284,260799_BAS4406)),71421_HI0693),242619_PG0924),190485_AE008922_GR_4928057_4929013);
+(((93061_SAOUHSC_00284,260799_BAS4406),(71421_HI0693,(242619_PG0924,190485_AE008922_GR_4928057_4929013))),85962_HP1285);
+(93061_SAOUHSC_00284,(260799_BAS4406,((71421_HI0693,(242619_PG0924,190485_AE008922_GR_4928057_4929013)),85962_HP1285)));
+((((71421_HI0693,(242619_PG0924,190485_AE008922_GR_4928057_4929013)),85962_HP1285),93061_SAOUHSC_00284),260799_BAS4406);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[242619_PG0924, 71421_HI0693]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 242619, 46 times], [Most Frequent recipient --> 242619, 54 times].
+LCA[71421_HI0693, 260799_BAS4406]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 71421, 25 times], [Most Frequent recipient --> 85962, 30 times].
+LCA[71421_HI0693, 260799_BAS4406]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 71421, 45 times], [Most Frequent recipient --> 71421, 55 times].
+LCA[71421_HI0693, 260799_BAS4406]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 85962, 40 times], [Most Frequent recipient --> 93061, 26 times].
+LCA[71421_HI0693, 260799_BAS4406]: [Speciations = 19, Duplications = 0, Transfers = 81], [Most Frequent mapping --> 260799, 43 times], [Most Frequent recipient --> 260799, 38 times].
+LCA[85962_HP1285, 190485_AE008922_GR_4928057_4929013]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190485, 48 times], [Most Frequent recipient --> 190485, 52 times].
+LCA[85962_HP1285, 190485_AE008922_GR_4928057_4929013]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 71421, 31 times], [Most Frequent recipient --> 71421, 27 times].
+LCA[93061_SAOUHSC_00284, 85962_HP1285]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 85962, 43 times], [Most Frequent recipient --> 85962, 57 times].
+LCA[93061_SAOUHSC_00284, 85962_HP1285]: [Speciations = 51, Duplications = 0, Transfers = 49], [Most Frequent mapping --> n31, 51 times], [Most Frequent recipient --> 93061, 20 times].

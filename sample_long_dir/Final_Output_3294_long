@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG3294/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((13773_PAE2323,243232_MJ1020),((272557_APE1666,(243230_DR1443,262724_TTC1068)),64091_VNG0804C));
+(13773_PAE2323,(243232_MJ1020,((272557_APE1666,(243230_DR1443,262724_TTC1068)),64091_VNG0804C)));
+((((272557_APE1666,(243230_DR1443,262724_TTC1068)),64091_VNG0804C),13773_PAE2323),243232_MJ1020);
+((272557_APE1666,(243230_DR1443,262724_TTC1068)),(64091_VNG0804C,(13773_PAE2323,243232_MJ1020)));
+(272557_APE1666,((243230_DR1443,262724_TTC1068),(64091_VNG0804C,(13773_PAE2323,243232_MJ1020))));
+(((64091_VNG0804C,(13773_PAE2323,243232_MJ1020)),272557_APE1666),(243230_DR1443,262724_TTC1068));
+(243230_DR1443,(262724_TTC1068,((64091_VNG0804C,(13773_PAE2323,243232_MJ1020)),272557_APE1666)));
+((((64091_VNG0804C,(13773_PAE2323,243232_MJ1020)),272557_APE1666),243230_DR1443),262724_TTC1068);
+(((13773_PAE2323,243232_MJ1020),(272557_APE1666,(243230_DR1443,262724_TTC1068))),64091_VNG0804C);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[13773_PAE2323, 64091_VNG0804C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n12, 52 times], [Most Frequent recipient --> 64091, 52 times].
+LCA[13773_PAE2323, 64091_VNG0804C]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n12, 100 times].
+LCA[13773_PAE2323, 64091_VNG0804C]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n12, 100 times].
+LCA[243230_DR1443, 272557_APE1666]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n81, 100 times].
+LCA[272557_APE1666, 243232_MJ1020]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n12, 55 times], [Most Frequent recipient --> 243232, 55 times].
+LCA[272557_APE1666, 243232_MJ1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n12, 100 times].
+LCA[272557_APE1666, 243232_MJ1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n12, 100 times].
+LCA[64091_VNG0804C, 262724_TTC1068]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n12, 57 times], [Most Frequent recipient --> n81, 57 times].
+LCA[64091_VNG0804C, 262724_TTC1068]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n81, 100 times].

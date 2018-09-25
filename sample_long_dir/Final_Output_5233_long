@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG5233/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(5833_PF10_0168,(4932_YDR517W,(6239_Y42H9AR_1_1,(7227_CG7809_PA,(((9606_ENSP00000313869,10090_ENSMUSP00000035099),(7955_ENSDARP00000066514,7955_ENSDARP00000004503)),((10090_ENSMUSP00000028509,9606_ENSP00000234160),7955_ENSDARP00000017335))))));
+
+
+The minimum reconciliation cost is: 8
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[9606_ENSP00000313869, 10090_ENSMUSP00000035099]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7955_ENSDARP00000066514, 7955_ENSDARP00000004503]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 7955, 100 times].
+LCA[9606_ENSP00000313869, 7955_ENSDARP00000004503]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[10090_ENSMUSP00000028509, 9606_ENSP00000234160]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[10090_ENSMUSP00000028509, 7955_ENSDARP00000017335]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[9606_ENSP00000313869, 7955_ENSDARP00000017335]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[7227_CG7809_PA, 7955_ENSDARP00000017335]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[6239_Y42H9AR_1_1, 7955_ENSDARP00000017335]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n19, 100 times].
+LCA[4932_YDR517W, 7955_ENSDARP00000017335]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n18, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[5833_PF10_0168, 7955_ENSDARP00000017335]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n15, 100 times].

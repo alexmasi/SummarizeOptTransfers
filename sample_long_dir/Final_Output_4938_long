@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG4938/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(190304_FN1701,(243365_CV0639,(13773_PAE0007,((272626_lin0834,(243277_VCA0200,243231_GSU0165)),234267_400071930))));
+(243365_CV0639,((13773_PAE0007,((272626_lin0834,(243277_VCA0200,243231_GSU0165)),234267_400071930)),190304_FN1701));
+((190304_FN1701,243365_CV0639),(13773_PAE0007,((272626_lin0834,(243277_VCA0200,243231_GSU0165)),234267_400071930)));
+(13773_PAE0007,(((272626_lin0834,(243277_VCA0200,243231_GSU0165)),234267_400071930),(190304_FN1701,243365_CV0639)));
+(((190304_FN1701,243365_CV0639),13773_PAE0007),((272626_lin0834,(243277_VCA0200,243231_GSU0165)),234267_400071930));
+((272626_lin0834,(243277_VCA0200,243231_GSU0165)),(234267_400071930,((190304_FN1701,243365_CV0639),13773_PAE0007)));
+(272626_lin0834,((243277_VCA0200,243231_GSU0165),(234267_400071930,((190304_FN1701,243365_CV0639),13773_PAE0007))));
+(((234267_400071930,((190304_FN1701,243365_CV0639),13773_PAE0007)),272626_lin0834),(243277_VCA0200,243231_GSU0165));
+(243277_VCA0200,(243231_GSU0165,((234267_400071930,((190304_FN1701,243365_CV0639),13773_PAE0007)),272626_lin0834)));
+((((234267_400071930,((190304_FN1701,243365_CV0639),13773_PAE0007)),272626_lin0834),243277_VCA0200),243231_GSU0165);
+((((190304_FN1701,243365_CV0639),13773_PAE0007),(272626_lin0834,(243277_VCA0200,243231_GSU0165))),234267_400071930);
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 11
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[13773_PAE0007, 243365_CV0639]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 13773, 49 times], [Most Frequent recipient --> 13773, 51 times].
+LCA[190304_FN1701, 234267_400071930]: [Speciations = 17, Duplications = 0, Transfers = 83], [Most Frequent mapping --> 13773, 21 times], [Most Frequent recipient --> 13773, 21 times].
+LCA[190304_FN1701, 234267_400071930]: [Speciations = 21, Duplications = 0, Transfers = 79], [Most Frequent mapping --> 190304, 22 times], [Most Frequent recipient --> 243365, 20 times].
+LCA[190304_FN1701, 234267_400071930]: [Speciations = 35, Duplications = 0, Transfers = 65], [Most Frequent mapping --> n41, 35 times], [Most Frequent recipient --> 234267, 32 times].
+LCA[190304_FN1701, 234267_400071930]: [Speciations = 6, Duplications = 0, Transfers = 94], [Most Frequent mapping --> 190304, 52 times], [Most Frequent recipient --> 190304, 42 times].
+LCA[234267_400071930, 243231_GSU0165]: [Speciations = 22, Duplications = 0, Transfers = 78], [Most Frequent mapping --> 243231, 46 times], [Most Frequent recipient --> 243231, 32 times].
+LCA[234267_400071930, 243231_GSU0165]: [Speciations = 33, Duplications = 0, Transfers = 67], [Most Frequent mapping --> n41, 33 times], [Most Frequent recipient --> 243231, 18 times].
+LCA[243277_VCA0200, 272626_lin0834]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243277, 45 times], [Most Frequent recipient --> 243277, 55 times].
+LCA[243365_CV0639, 190304_FN1701]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 54 times], [Most Frequent recipient --> 243365, 46 times].
+LCA[272626_lin0834, 13773_PAE0007]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272626, 45 times], [Most Frequent recipient --> 272626, 55 times].
+LCA[272626_lin0834, 13773_PAE0007]: [Speciations = 50, Duplications = 0, Transfers = 50], [Most Frequent mapping --> n41, 50 times], [Most Frequent recipient --> 234267, 17 times].

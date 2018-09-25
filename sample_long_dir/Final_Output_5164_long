@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG5164/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((5833_MAL6P1_111,237895_Chro_60534),((4932_YML010W,(6239_K08E4_1,(((7955_ENSDARP00000062675,7955_ENSDARP00000060923),(10090_ENSMUSP00000083040,9606_ENSP00000349317)),7227_CG7626_PA))),(3702_AT2G34210_1,3702_AT4G08350_1)));
+
+
+The minimum reconciliation cost is: 5
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[5833_MAL6P1_111, 237895_Chro_60534]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].
+LCA[7955_ENSDARP00000062675, 7955_ENSDARP00000060923]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 7955, 100 times].
+LCA[10090_ENSMUSP00000083040, 9606_ENSP00000349317]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7955_ENSDARP00000062675, 9606_ENSP00000349317]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[7955_ENSDARP00000062675, 7227_CG7626_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[6239_K08E4_1, 7227_CG7626_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n19, 100 times].
+LCA[4932_YML010W, 7227_CG7626_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n18, 100 times].
+LCA[3702_AT2G34210_1, 3702_AT4G08350_1]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[4932_YML010W, 3702_AT4G08350_1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[5833_MAL6P1_111, 3702_AT4G08350_1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n15, 100 times].

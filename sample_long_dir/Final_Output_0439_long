@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG0439/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224308_BSU37710,((243276_TP0695,266835_mll9226),(6239_T28F3_5,204669_Acid345_0466)));
+((243276_TP0695,266835_mll9226),((6239_T28F3_5,204669_Acid345_0466),224308_BSU37710));
+(243276_TP0695,(266835_mll9226,((6239_T28F3_5,204669_Acid345_0466),224308_BSU37710)));
+((((6239_T28F3_5,204669_Acid345_0466),224308_BSU37710),243276_TP0695),266835_mll9226);
+((224308_BSU37710,(243276_TP0695,266835_mll9226)),(6239_T28F3_5,204669_Acid345_0466));
+(6239_T28F3_5,(204669_Acid345_0466,(224308_BSU37710,(243276_TP0695,266835_mll9226))));
+(((224308_BSU37710,(243276_TP0695,266835_mll9226)),6239_T28F3_5),204669_Acid345_0466);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224308_BSU37710, 204669_Acid345_0466]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 204669, 58 times], [Most Frequent recipient --> 204669, 42 times].
+LCA[224308_BSU37710, 204669_Acid345_0466]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224308, 52 times], [Most Frequent recipient --> 224308, 48 times].
+LCA[224308_BSU37710, 204669_Acid345_0466]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 6239, 30 times], [Most Frequent recipient --> 224308, 36 times].
+LCA[243276_TP0695, 224308_BSU37710]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243276, 48 times], [Most Frequent recipient --> 243276, 52 times].
+LCA[243276_TP0695, 224308_BSU37710]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 35 times], [Most Frequent recipient --> 224308, 30 times].
+LCA[6239_T28F3_5, 266835_mll9226]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 46 times], [Most Frequent recipient --> 266835, 54 times].
+LCA[6239_T28F3_5, 266835_mll9226]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 6239, 49 times], [Most Frequent recipient --> 6239, 51 times].

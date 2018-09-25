@@ -1,0 +1,35 @@
+Input file: ../raw-data/original_seqs/COG1824/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224325_AF1505,((187420_MTH1401,((((6239_K07H8_2a,6239_ZK185_2),6239_ZK1053_6),(((((9598_ENSPTRP00000009138,9606_ENSP00000258538),10090_ENSMUSP00000036690),(7955_ENSDARP00000046648,9598_ENSPTRP00000003191)),((10090_ENSMUSP00000037473,(9598_ENSPTRP00000026419,9606_ENSP00000326070)),7955_ENSDARP00000039946)),7227_CG33181_PA)),272557_APE0156)),186497_PF1157));
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[6239_K07H8_2a, 6239_ZK185_2]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 6239, 100 times].
+LCA[6239_K07H8_2a, 6239_ZK1053_6]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 6239, 100 times].
+LCA[9598_ENSPTRP00000009138, 9606_ENSP00000258538]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[9598_ENSPTRP00000009138, 10090_ENSMUSP00000036690]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7955_ENSDARP00000046648, 9598_ENSPTRP00000003191]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 7955, 100 times], [Most Frequent recipient --> 9598, 100 times].
+LCA[9598_ENSPTRP00000009138, 9598_ENSPTRP00000003191]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[9598_ENSPTRP00000026419, 9606_ENSP00000326070]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[10090_ENSMUSP00000037473, 9606_ENSP00000326070]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[10090_ENSMUSP00000037473, 7955_ENSDARP00000039946]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[9598_ENSPTRP00000009138, 7955_ENSDARP00000039946]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[9598_ENSPTRP00000009138, 7227_CG33181_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[6239_K07H8_2a, 7227_CG33181_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n19, 100 times].
+LCA[6239_K07H8_2a, 272557_APE0156]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n19, 52 times], [Most Frequent recipient --> 272557, 52 times].
+LCA[187420_MTH1401, 272557_APE0156]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 187420, 35 times], [Most Frequent recipient --> n19, 52 times].
+LCA[187420_MTH1401, 186497_PF1157]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n8, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224325_AF1505, 186497_PF1157]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n5, 100 times].

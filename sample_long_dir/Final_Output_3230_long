@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG3230/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(208964_PA4116,((122586_NMB1669,(176299_AGR_C_4545,258594_RPA3279)),208964_PA0672));
+((122586_NMB1669,(176299_AGR_C_4545,258594_RPA3279)),(208964_PA0672,208964_PA4116));
+(122586_NMB1669,((176299_AGR_C_4545,258594_RPA3279),(208964_PA0672,208964_PA4116)));
+(((208964_PA0672,208964_PA4116),122586_NMB1669),(176299_AGR_C_4545,258594_RPA3279));
+(176299_AGR_C_4545,(258594_RPA3279,((208964_PA0672,208964_PA4116),122586_NMB1669)));
+((((208964_PA0672,208964_PA4116),122586_NMB1669),176299_AGR_C_4545),258594_RPA3279);
+((208964_PA4116,(122586_NMB1669,(176299_AGR_C_4545,258594_RPA3279))),208964_PA0672);
+
+
+The minimum reconciliation cost is: 11
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[122586_NMB1669, 208964_PA4116]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 122586, 56 times], [Most Frequent recipient --> 122586, 44 times].
+LCA[122586_NMB1669, 208964_PA4116]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 208964, 51 times], [Most Frequent recipient --> 208964, 49 times].
+LCA[176299_AGR_C_4545, 122586_NMB1669]: [Speciations = 36, Duplications = 0, Transfers = 64], [Most Frequent mapping --> n53, 36 times], [Most Frequent recipient --> 176299, 30 times].
+LCA[208964_PA0672, 258594_RPA3279]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 122586, 26 times], [Most Frequent recipient --> 122586, 26 times].
+LCA[208964_PA0672, 258594_RPA3279]: [Speciations = 36, Duplications = 0, Transfers = 64], [Most Frequent mapping --> 258594, 37 times], [Most Frequent recipient --> 258594, 27 times].
+LCA[208964_PA4116, 208964_PA0672]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 208964, 100 times].
+LCA[208964_PA4116, 208964_PA0672]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 208964, 100 times].

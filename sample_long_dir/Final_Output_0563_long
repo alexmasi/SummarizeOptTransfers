@@ -1,0 +1,48 @@
+Input file: ../raw-data/original_seqs/COG0563/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((64091_VNG1724G,204669_Acid345_3213),882_DVU1932),(9606_ENSP00000285397,(((235279_HH1771,273121_WS1782),192222_Cj0639c),5833_PF08_0062)));
+(9606_ENSP00000285397,((((235279_HH1771,273121_WS1782),192222_Cj0639c),5833_PF08_0062),((64091_VNG1724G,204669_Acid345_3213),882_DVU1932)));
+((((64091_VNG1724G,204669_Acid345_3213),882_DVU1932),9606_ENSP00000285397),(((235279_HH1771,273121_WS1782),192222_Cj0639c),5833_PF08_0062));
+(((235279_HH1771,273121_WS1782),192222_Cj0639c),(5833_PF08_0062,(((64091_VNG1724G,204669_Acid345_3213),882_DVU1932),9606_ENSP00000285397)));
+(((((64091_VNG1724G,204669_Acid345_3213),882_DVU1932),9606_ENSP00000285397),((235279_HH1771,273121_WS1782),192222_Cj0639c)),5833_PF08_0062);
+
+
+The minimum reconciliation cost is: 13
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[64091_VNG1724G, 204669_Acid345_3213]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 204669, 50 times], [Most Frequent recipient --> 64091, 100 times].
+LCA[64091_VNG1724G, 204669_Acid345_3213]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 204669, 53 times], [Most Frequent recipient --> 64091, 100 times].
+LCA[64091_VNG1724G, 204669_Acid345_3213]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 204669, 50 times], [Most Frequent recipient --> 64091, 100 times].
+LCA[64091_VNG1724G, 204669_Acid345_3213]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n44, 61 times], [Most Frequent recipient --> 64091, 100 times].
+LCA[64091_VNG1724G, 204669_Acid345_3213]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 204669, 50 times], [Most Frequent recipient --> 64091, 100 times].
+LCA[64091_VNG1724G, 882_DVU1932]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[64091_VNG1724G, 882_DVU1932]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[64091_VNG1724G, 882_DVU1932]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[64091_VNG1724G, 882_DVU1932]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[64091_VNG1724G, 882_DVU1932]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[235279_HH1771, 273121_WS1782]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+LCA[235279_HH1771, 273121_WS1782]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+LCA[235279_HH1771, 273121_WS1782]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+LCA[235279_HH1771, 273121_WS1782]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+LCA[235279_HH1771, 273121_WS1782]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+LCA[235279_HH1771, 192222_Cj0639c]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+LCA[235279_HH1771, 192222_Cj0639c]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+LCA[235279_HH1771, 192222_Cj0639c]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+LCA[235279_HH1771, 192222_Cj0639c]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+LCA[235279_HH1771, 192222_Cj0639c]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[235279_HH1771, 9606_ENSP00000285397]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n40, 100 times].
+LCA[64091_VNG1724G, 5833_PF08_0062]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 5833, 51 times], [Most Frequent recipient --> n40, 51 times].
+LCA[64091_VNG1724G, 5833_PF08_0062]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n40, 100 times].
+LCA[64091_VNG1724G, 5833_PF08_0062]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n40, 100 times].
+LCA[9606_ENSP00000285397, 882_DVU1932]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 9606, 56 times], [Most Frequent recipient --> n40, 56 times].

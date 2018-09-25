@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG4877/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((100226_SCO5037,(176299_AGR_C_3957,196627_cg3139)),(170187_SP2133,221109_OB0884));
+(100226_SCO5037,((176299_AGR_C_3957,196627_cg3139),(170187_SP2133,221109_OB0884)));
+(((170187_SP2133,221109_OB0884),100226_SCO5037),(176299_AGR_C_3957,196627_cg3139));
+(176299_AGR_C_3957,(196627_cg3139,((170187_SP2133,221109_OB0884),100226_SCO5037)));
+((((170187_SP2133,221109_OB0884),100226_SCO5037),176299_AGR_C_3957),196627_cg3139);
+(170187_SP2133,(221109_OB0884,(100226_SCO5037,(176299_AGR_C_3957,196627_cg3139))));
+(((100226_SCO5037,(176299_AGR_C_3957,196627_cg3139)),170187_SP2133),221109_OB0884);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO5037, 221109_OB0884]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 50 times], [Most Frequent recipient --> 221109, 50 times].
+LCA[100226_SCO5037, 221109_OB0884]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n98, 47 times], [Most Frequent recipient --> n98, 53 times].
+LCA[100226_SCO5037, 221109_OB0884]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[170187_SP2133, 196627_cg3139]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 46 times], [Most Frequent recipient --> 170187, 54 times].
+LCA[170187_SP2133, 196627_cg3139]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[170187_SP2133, 196627_cg3139]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[176299_AGR_C_3957, 100226_SCO5037]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n98, 55 times], [Most Frequent recipient --> 176299, 55 times].

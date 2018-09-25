@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG2405/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224325_AF0099,(272557_APE0890,((103690_all2804,251221_glr0616),224325_AF0598)));
+(272557_APE0890,(((103690_all2804,251221_glr0616),224325_AF0598),224325_AF0099));
+((224325_AF0099,272557_APE0890),((103690_all2804,251221_glr0616),224325_AF0598));
+((103690_all2804,251221_glr0616),(224325_AF0598,(224325_AF0099,272557_APE0890)));
+(103690_all2804,(251221_glr0616,(224325_AF0598,(224325_AF0099,272557_APE0890))));
+(((224325_AF0598,(224325_AF0099,272557_APE0890)),103690_all2804),251221_glr0616);
+(((224325_AF0099,272557_APE0890),(103690_all2804,251221_glr0616)),224325_AF0598);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[103690_all2804, 272557_APE0890]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224325, 51 times], [Most Frequent recipient --> n82, 51 times].
+LCA[103690_all2804, 272557_APE0890]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[224325_AF0099, 224325_AF0598]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0099, 224325_AF0598]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0099, 224325_AF0598]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0598, 251221_glr0616]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[272557_APE0890, 224325_AF0099]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272557, 52 times], [Most Frequent recipient --> 224325, 52 times].

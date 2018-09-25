@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG3044/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(190192_MK0347,(((262724_TTC0228,272557_APE1810),(221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786)))),243232_MJ1628));
+(((262724_TTC0228,272557_APE1810),(221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786)))),(243232_MJ1628,190192_MK0347));
+((262724_TTC0228,272557_APE1810),((221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786))),(243232_MJ1628,190192_MK0347)));
+(262724_TTC0228,(272557_APE1810,((221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786))),(243232_MJ1628,190192_MK0347))));
+((((221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786))),(243232_MJ1628,190192_MK0347)),262724_TTC0228),272557_APE1810);
+(((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810)),(221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786))));
+(221109_OB1084,((273068_TTE0034,(74109_PBPRB0816,243277_VCA0786)),((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810))));
+((((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810)),221109_OB1084),(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786)));
+(273068_TTE0034,((74109_PBPRB0816,243277_VCA0786),(((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810)),221109_OB1084)));
+(((((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810)),221109_OB1084),273068_TTE0034),(74109_PBPRB0816,243277_VCA0786));
+(74109_PBPRB0816,(243277_VCA0786,((((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810)),221109_OB1084),273068_TTE0034)));
+((((((243232_MJ1628,190192_MK0347),(262724_TTC0228,272557_APE1810)),221109_OB1084),273068_TTE0034),74109_PBPRB0816),243277_VCA0786);
+((190192_MK0347,((262724_TTC0228,272557_APE1810),(221109_OB1084,(273068_TTE0034,(74109_PBPRB0816,243277_VCA0786))))),243232_MJ1628);
+
+
+The minimum reconciliation cost is: 16
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190192_MK0347, 243232_MJ1628]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n9, 100 times].
+LCA[190192_MK0347, 243232_MJ1628]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n9, 100 times].
+LCA[221109_OB1084, 272557_APE1810]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 44 times], [Most Frequent recipient --> 221109, 56 times].
+LCA[221109_OB1084, 272557_APE1810]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272557, 50 times], [Most Frequent recipient --> 272557, 50 times].
+LCA[243232_MJ1628, 243277_VCA0786]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 28 times], [Most Frequent recipient --> 221109, 30 times].
+LCA[243232_MJ1628, 243277_VCA0786]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n69, 28 times], [Most Frequent recipient --> n69, 31 times].
+LCA[243232_MJ1628, 243277_VCA0786]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n69, 43 times], [Most Frequent recipient --> n69, 57 times].
+LCA[243232_MJ1628, 243277_VCA0786]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[262724_TTC0228, 190192_MK0347]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 262724, 46 times], [Most Frequent recipient --> 262724, 54 times].
+LCA[262724_TTC0228, 190192_MK0347]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272557, 28 times], [Most Frequent recipient --> 262724, 31 times].
+LCA[262724_TTC0228, 190192_MK0347]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n9, 50 times], [Most Frequent recipient --> n9, 50 times].
+LCA[273068_TTE0034, 221109_OB1084]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 273068, 54 times], [Most Frequent recipient --> 273068, 46 times].
+LCA[74109_PBPRB0816, 273068_TTE0034]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].

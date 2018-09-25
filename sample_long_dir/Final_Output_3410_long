@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG3410/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(2287_SSO1331,((273068_TTE1546,(243231_GSU1358,(4932_YPL245W,220668_lp_0359))),273075_Ta0737));
+((273068_TTE1546,(243231_GSU1358,(4932_YPL245W,220668_lp_0359))),(273075_Ta0737,2287_SSO1331));
+(273068_TTE1546,((243231_GSU1358,(4932_YPL245W,220668_lp_0359)),(273075_Ta0737,2287_SSO1331)));
+(((273075_Ta0737,2287_SSO1331),273068_TTE1546),(243231_GSU1358,(4932_YPL245W,220668_lp_0359)));
+(243231_GSU1358,((4932_YPL245W,220668_lp_0359),((273075_Ta0737,2287_SSO1331),273068_TTE1546)));
+((((273075_Ta0737,2287_SSO1331),273068_TTE1546),243231_GSU1358),(4932_YPL245W,220668_lp_0359));
+(4932_YPL245W,(220668_lp_0359,(((273075_Ta0737,2287_SSO1331),273068_TTE1546),243231_GSU1358)));
+(((((273075_Ta0737,2287_SSO1331),273068_TTE1546),243231_GSU1358),4932_YPL245W),220668_lp_0359);
+((2287_SSO1331,(273068_TTE1546,(243231_GSU1358,(4932_YPL245W,220668_lp_0359)))),273075_Ta0737);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[2287_SSO1331, 273075_Ta0737]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 2287, 53 times], [Most Frequent recipient --> 2287, 47 times].
+LCA[2287_SSO1331, 273075_Ta0737]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 273075, 55 times], [Most Frequent recipient --> 273075, 45 times].
+LCA[243231_GSU1358, 273068_TTE1546]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243231, 56 times], [Most Frequent recipient --> 243231, 44 times].
+LCA[273068_TTE1546, 2287_SSO1331]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 273068, 27 times], [Most Frequent recipient --> 273075, 30 times].
+LCA[273068_TTE1546, 2287_SSO1331]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 273068, 54 times], [Most Frequent recipient --> 273068, 46 times].
+LCA[273075_Ta0737, 220668_lp_0359]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 220668, 30 times], [Most Frequent recipient --> 4932, 29 times].
+LCA[273075_Ta0737, 220668_lp_0359]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 220668, 62 times], [Most Frequent recipient --> 220668, 38 times].
+LCA[273075_Ta0737, 220668_lp_0359]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 273068, 23 times], [Most Frequent recipient --> 243231, 31 times].
+LCA[4932_YPL245W, 243231_GSU1358]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 4932, 44 times], [Most Frequent recipient --> 4932, 56 times].

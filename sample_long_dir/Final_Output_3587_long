@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG3587/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((194439_CT0911,209261_t0871),((243164_DET1114,((85962_HP1521,85962_HP0592),122586_NMB1260)),190304_FN0417));
+(194439_CT0911,(209261_t0871,((243164_DET1114,((85962_HP1521,85962_HP0592),122586_NMB1260)),190304_FN0417)));
+((((243164_DET1114,((85962_HP1521,85962_HP0592),122586_NMB1260)),190304_FN0417),194439_CT0911),209261_t0871);
+((243164_DET1114,((85962_HP1521,85962_HP0592),122586_NMB1260)),(190304_FN0417,(194439_CT0911,209261_t0871)));
+(243164_DET1114,(((85962_HP1521,85962_HP0592),122586_NMB1260),(190304_FN0417,(194439_CT0911,209261_t0871))));
+(((190304_FN0417,(194439_CT0911,209261_t0871)),243164_DET1114),((85962_HP1521,85962_HP0592),122586_NMB1260));
+((85962_HP1521,85962_HP0592),(122586_NMB1260,((190304_FN0417,(194439_CT0911,209261_t0871)),243164_DET1114)));
+(85962_HP1521,(85962_HP0592,(122586_NMB1260,((190304_FN0417,(194439_CT0911,209261_t0871)),243164_DET1114))));
+(((122586_NMB1260,((190304_FN0417,(194439_CT0911,209261_t0871)),243164_DET1114)),85962_HP1521),85962_HP0592);
+((((190304_FN0417,(194439_CT0911,209261_t0871)),243164_DET1114),(85962_HP1521,85962_HP0592)),122586_NMB1260);
+(((194439_CT0911,209261_t0871),(243164_DET1114,((85962_HP1521,85962_HP0592),122586_NMB1260))),190304_FN0417);
+
+
+The minimum reconciliation cost is: 17
+The total number of optimal rootings is: 11
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[122586_NMB1260, 85962_HP0592]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 85962, 100 times].
+LCA[190304_FN0417, 122586_NMB1260]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 122586, 55 times], [Most Frequent recipient --> 122586, 45 times].
+LCA[190304_FN0417, 122586_NMB1260]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 85962, 28 times], [Most Frequent recipient --> 122586, 26 times].
+LCA[194439_CT0911, 190304_FN0417]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 53 times], [Most Frequent recipient --> 194439, 47 times].
+LCA[194439_CT0911, 190304_FN0417]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n76, 26 times], [Most Frequent recipient --> 194439, 33 times].
+LCA[194439_CT0911, 190304_FN0417]: [Speciations = 47, Duplications = 0, Transfers = 53], [Most Frequent mapping --> n76, 47 times], [Most Frequent recipient --> 190304, 25 times].
+LCA[243164_DET1114, 209261_t0871]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 209261, 48 times], [Most Frequent recipient --> 209261, 52 times].
+LCA[243164_DET1114, 209261_t0871]: [Speciations = 25, Duplications = 0, Transfers = 75], [Most Frequent mapping --> 243164, 33 times], [Most Frequent recipient --> 243164, 42 times].
+LCA[243164_DET1114, 209261_t0871]: [Speciations = 38, Duplications = 0, Transfers = 62], [Most Frequent mapping --> n76, 38 times], [Most Frequent recipient --> 243164, 20 times].
+LCA[85962_HP1521, 243164_DET1114]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 85962, 48 times], [Most Frequent recipient --> 85962, 52 times].
+LCA[85962_HP1521, 243164_DET1114]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 85962, 100 times].

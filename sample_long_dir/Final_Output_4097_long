@@ -1,0 +1,57 @@
+Input file: ../raw-data/original_seqs/COG4097/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((((((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961)),170187_SP0606),100226_SCO1573),(103690_all2633,258594_RPA1024));
+(((((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961)),170187_SP0606),(100226_SCO1573,(103690_all2633,258594_RPA1024)));
+((((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961)),(170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024))));
+(((243277_VCA0151,74109_PBPRB0200),208964_PA0545),((258594_RPA2785,520_BP1961),(170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024)))));
+((243277_VCA0151,74109_PBPRB0200),(208964_PA0545,((258594_RPA2785,520_BP1961),(170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024))))));
+((((258594_RPA2785,520_BP1961),(170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024)))),(243277_VCA0151,74109_PBPRB0200)),208964_PA0545);
+(((170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024))),((243277_VCA0151,74109_PBPRB0200),208964_PA0545)),(258594_RPA2785,520_BP1961));
+(258594_RPA2785,(520_BP1961,((170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024))),((243277_VCA0151,74109_PBPRB0200),208964_PA0545))));
+((((170187_SP0606,(100226_SCO1573,(103690_all2633,258594_RPA1024))),((243277_VCA0151,74109_PBPRB0200),208964_PA0545)),258594_RPA2785),520_BP1961);
+(((100226_SCO1573,(103690_all2633,258594_RPA1024)),(((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961))),170187_SP0606);
+(((103690_all2633,258594_RPA1024),((((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961)),170187_SP0606)),100226_SCO1573);
+(103690_all2633,(258594_RPA1024,(((((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961)),170187_SP0606),100226_SCO1573)));
+(((((((243277_VCA0151,74109_PBPRB0200),208964_PA0545),(258594_RPA2785,520_BP1961)),170187_SP0606),100226_SCO1573),103690_all2633),258594_RPA1024);
+
+
+The minimum reconciliation cost is: 19
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VCA0151, 74109_PBPRB0200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO1573, 170187_SP0606]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 57 times], [Most Frequent recipient --> 258594, 57 times].
+LCA[103690_all2633, 100226_SCO1573]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 51 times], [Most Frequent recipient --> 100226, 51 times].
+LCA[103690_all2633, 100226_SCO1573]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 55 times], [Most Frequent recipient --> 103690, 55 times].
+LCA[170187_SP0606, 520_BP1961]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 51 times], [Most Frequent recipient --> 520, 51 times].
+LCA[170187_SP0606, 520_BP1961]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 258594, 100 times].
+LCA[243277_VCA0151, 258594_RPA1024]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n66, 55 times], [Most Frequent recipient --> 258594, 55 times].
+LCA[243277_VCA0151, 258594_RPA1024]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 258594, 100 times].
+LCA[243277_VCA0151, 258594_RPA1024]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 258594, 100 times].
+LCA[243277_VCA0151, 258594_RPA1024]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 258594, 100 times].
+LCA[243277_VCA0151, 258594_RPA1024]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 258594, 100 times].
+LCA[243277_VCA0151, 258594_RPA1024]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].
+LCA[258594_RPA2785, 208964_PA0545]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 258594, 100 times].
+LCA[258594_RPA2785, 208964_PA0545]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].

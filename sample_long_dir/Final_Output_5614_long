@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG5614/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(235_BAB1_0615,((882_DVU1497,(198214_SF1141,(267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283)))),176299_AGR_C_1752));
+((882_DVU1497,(198214_SF1141,(267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283)))),(176299_AGR_C_1752,235_BAB1_0615));
+(882_DVU1497,((198214_SF1141,(267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283))),(176299_AGR_C_1752,235_BAB1_0615)));
+(((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497),(198214_SF1141,(267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283))));
+(198214_SF1141,((267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283)),((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497)));
+((((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497),198214_SF1141),(267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283)));
+(267608_RSc1686,((74109_PBPRA1359,74109_PBPRB1283),(((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497),198214_SF1141)));
+(((((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497),198214_SF1141),267608_RSc1686),(74109_PBPRA1359,74109_PBPRB1283));
+(74109_PBPRA1359,(74109_PBPRB1283,((((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497),198214_SF1141),267608_RSc1686)));
+((((((176299_AGR_C_1752,235_BAB1_0615),882_DVU1497),198214_SF1141),267608_RSc1686),74109_PBPRA1359),74109_PBPRB1283);
+((235_BAB1_0615,(882_DVU1497,(198214_SF1141,(267608_RSc1686,(74109_PBPRA1359,74109_PBPRB1283))))),176299_AGR_C_1752);
+
+
+The minimum reconciliation cost is: 16
+The total number of optimal rootings is: 11
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[176299_AGR_C_1752, 74109_PBPRB1283]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 198214, 29 times], [Most Frequent recipient --> n55, 34 times].
+LCA[176299_AGR_C_1752, 74109_PBPRB1283]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 198214, 31 times], [Most Frequent recipient --> 267608, 29 times].
+LCA[176299_AGR_C_1752, 74109_PBPRB1283]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 74109, 45 times], [Most Frequent recipient --> 74109, 55 times].
+LCA[176299_AGR_C_1752, 74109_PBPRB1283]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 74109, 100 times].
+LCA[198214_SF1141, 882_DVU1497]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 198214, 47 times], [Most Frequent recipient --> 198214, 53 times].
+LCA[235_BAB1_0615, 176299_AGR_C_1752]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[235_BAB1_0615, 176299_AGR_C_1752]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[267608_RSc1686, 198214_SF1141]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 56 times], [Most Frequent recipient --> 267608, 44 times].
+LCA[74109_PBPRA1359, 267608_RSc1686]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 74109, 100 times].
+LCA[882_DVU1497, 235_BAB1_0615]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 882, 51 times], [Most Frequent recipient --> 882, 49 times].
+LCA[882_DVU1497, 235_BAB1_0615]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n55, 46 times], [Most Frequent recipient --> n55, 54 times].

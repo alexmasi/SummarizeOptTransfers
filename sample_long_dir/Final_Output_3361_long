@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG3361/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(234267_400011130,(((234267_400075620,(83331_MT1979,100226_SCO1179)),64091_VNG1746C),117_RB5213));
+(((234267_400075620,(83331_MT1979,100226_SCO1179)),64091_VNG1746C),(117_RB5213,234267_400011130));
+((234267_400075620,(83331_MT1979,100226_SCO1179)),(64091_VNG1746C,(117_RB5213,234267_400011130)));
+(234267_400075620,((83331_MT1979,100226_SCO1179),(64091_VNG1746C,(117_RB5213,234267_400011130))));
+(((64091_VNG1746C,(117_RB5213,234267_400011130)),234267_400075620),(83331_MT1979,100226_SCO1179));
+(83331_MT1979,(100226_SCO1179,((64091_VNG1746C,(117_RB5213,234267_400011130)),234267_400075620)));
+((((64091_VNG1746C,(117_RB5213,234267_400011130)),234267_400075620),83331_MT1979),100226_SCO1179);
+(((117_RB5213,234267_400011130),(234267_400075620,(83331_MT1979,100226_SCO1179))),64091_VNG1746C);
+((234267_400011130,((234267_400075620,(83331_MT1979,100226_SCO1179)),64091_VNG1746C)),117_RB5213);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[117_RB5213, 64091_VNG1746C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 64091, 54 times], [Most Frequent recipient --> n92, 47 times].
+LCA[234267_400011130, 117_RB5213]: [Speciations = 0, Duplications = 17, Transfers = 83], [Most Frequent mapping --> 234267, 62 times], [Most Frequent recipient --> n92, 45 times].
+LCA[234267_400011130, 117_RB5213]: [Speciations = 74, Duplications = 0, Transfers = 26], [Most Frequent mapping --> n92, 74 times], [Most Frequent recipient --> 117, 13 times].
+LCA[234267_400075620, 234267_400011130]: [Speciations = 0, Duplications = 8, Transfers = 92], [Most Frequent mapping --> 234267, 53 times], [Most Frequent recipient --> 234267, 47 times].
+LCA[234267_400075620, 234267_400011130]: [Speciations = 86, Duplications = 14, Transfers = 0], [Most Frequent mapping --> n92, 86 times].
+LCA[234267_400075620, 234267_400011130]: [Speciations = 89, Duplications = 11, Transfers = 0], [Most Frequent mapping --> n92, 89 times].
+LCA[64091_VNG1746C, 100226_SCO1179]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[64091_VNG1746C, 100226_SCO1179]: [Speciations = 71, Duplications = 0, Transfers = 29], [Most Frequent mapping --> n92, 71 times], [Most Frequent recipient --> 234267, 16 times].
+LCA[83331_MT1979, 234267_400075620]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].

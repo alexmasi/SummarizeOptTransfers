@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG3953/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((224308_BSU26030,224308_BSU12680),(272623_LL0479,272623_LL1388)),(83331_MT4012,93061_SAOUHSC_02182));
+((224308_BSU26030,224308_BSU12680),((272623_LL0479,272623_LL1388),(83331_MT4012,93061_SAOUHSC_02182)));
+(224308_BSU26030,(224308_BSU12680,((272623_LL0479,272623_LL1388),(83331_MT4012,93061_SAOUHSC_02182))));
+((((272623_LL0479,272623_LL1388),(83331_MT4012,93061_SAOUHSC_02182)),224308_BSU26030),224308_BSU12680);
+(((83331_MT4012,93061_SAOUHSC_02182),(224308_BSU26030,224308_BSU12680)),(272623_LL0479,272623_LL1388));
+(272623_LL0479,(272623_LL1388,((83331_MT4012,93061_SAOUHSC_02182),(224308_BSU26030,224308_BSU12680))));
+((((83331_MT4012,93061_SAOUHSC_02182),(224308_BSU26030,224308_BSU12680)),272623_LL0479),272623_LL1388);
+(83331_MT4012,(93061_SAOUHSC_02182,((224308_BSU26030,224308_BSU12680),(272623_LL0479,272623_LL1388))));
+((((224308_BSU26030,224308_BSU12680),(272623_LL0479,272623_LL1388)),83331_MT4012),93061_SAOUHSC_02182);
+
+
+The minimum reconciliation cost is: 13
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224308_BSU26030, 93061_SAOUHSC_02182]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224308, 100 times].
+LCA[224308_BSU26030, 93061_SAOUHSC_02182]: [Speciations = 11, Duplications = 0, Transfers = 89], [Most Frequent mapping --> 224308, 40 times], [Most Frequent recipient --> 224308, 49 times].
+LCA[224308_BSU26030, 93061_SAOUHSC_02182]: [Speciations = 31, Duplications = 0, Transfers = 69], [Most Frequent mapping --> n31, 31 times], [Most Frequent recipient --> 83331, 24 times].
+LCA[224308_BSU26030, 93061_SAOUHSC_02182]: [Speciations = 59, Duplications = 0, Transfers = 41], [Most Frequent mapping --> n31, 59 times], [Most Frequent recipient --> 93061, 20 times].
+LCA[272623_LL0479, 224308_BSU12680]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224308, 100 times].
+LCA[272623_LL0479, 224308_BSU12680]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 272623, 100 times].
+LCA[83331_MT4012, 272623_LL1388]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 43 times], [Most Frequent recipient --> 83331, 57 times].
+LCA[83331_MT4012, 272623_LL1388]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 272623, 100 times].
+LCA[83331_MT4012, 272623_LL1388]: [Speciations = 4, Duplications = 0, Transfers = 96], [Most Frequent mapping --> 272623, 54 times], [Most Frequent recipient --> 272623, 42 times].

@@ -1,0 +1,57 @@
+Input file: ../raw-data/original_seqs/COG3002/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224324_AQ_863,(((((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129),(93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850))),117_RB10314));
+(((((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129),(93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850))),(117_RB10314,224324_AQ_863));
+((((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129),((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863)));
+(((243277_VC1582,243365_CV3220),258594_RPA2996),(117_RB1129,((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863))));
+((243277_VC1582,243365_CV3220),(258594_RPA2996,(117_RB1129,((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863)))));
+(243277_VC1582,(243365_CV3220,(258594_RPA2996,(117_RB1129,((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863))))));
+(((258594_RPA2996,(117_RB1129,((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863)))),243277_VC1582),243365_CV3220);
+(((117_RB1129,((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863))),(243277_VC1582,243365_CV3220)),258594_RPA2996);
+((((93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)),(117_RB10314,224324_AQ_863)),((243277_VC1582,243365_CV3220),258594_RPA2996)),117_RB1129);
+(((117_RB10314,224324_AQ_863),(((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129)),(93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)));
+(93061_SAOUHSC_00413,((260799_BAS2958,224308_BSU01850),((117_RB10314,224324_AQ_863),(((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129))));
+((((117_RB10314,224324_AQ_863),(((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129)),93061_SAOUHSC_00413),(260799_BAS2958,224308_BSU01850));
+((224324_AQ_863,((((243277_VC1582,243365_CV3220),258594_RPA2996),117_RB1129),(93061_SAOUHSC_00413,(260799_BAS2958,224308_BSU01850)))),117_RB10314);
+
+
+The minimum reconciliation cost is: 19
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[260799_BAS2958, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[117_RB10314, 224308_BSU01850]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n31, 58 times], [Most Frequent recipient --> 117, 58 times].
+LCA[117_RB10314, 224308_BSU01850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+LCA[117_RB1129, 258594_RPA2996]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 50 times], [Most Frequent recipient --> 258594, 50 times].
+LCA[224324_AQ_863, 117_RB10314]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 57 times], [Most Frequent recipient --> 224324, 57 times].
+LCA[224324_AQ_863, 117_RB10314]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[243277_VC1582, 224324_AQ_863]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 27 times], [Most Frequent recipient --> 243277, 29 times].
+LCA[243277_VC1582, 224324_AQ_863]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 42 times], [Most Frequent recipient --> 117, 58 times].
+LCA[243277_VC1582, 224324_AQ_863]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243277, 55 times], [Most Frequent recipient --> 243277, 45 times].
+LCA[243277_VC1582, 224324_AQ_863]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[243277_VC1582, 224324_AQ_863]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[258594_RPA2996, 243365_CV3220]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 49 times], [Most Frequent recipient --> 243365, 51 times].
+LCA[93061_SAOUHSC_00413, 117_RB1129]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[93061_SAOUHSC_00413, 117_RB1129]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].

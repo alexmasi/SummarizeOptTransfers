@@ -1,0 +1,30 @@
+Input file: ../raw-data/original_seqs/COG5554/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((103690_asr1409,(258594_RPA4623,224911_bsr1757)),(266835_msl5852,266834_RA0440));
+(103690_asr1409,((258594_RPA4623,224911_bsr1757),(266835_msl5852,266834_RA0440)));
+(((266835_msl5852,266834_RA0440),103690_asr1409),(258594_RPA4623,224911_bsr1757));
+
+
+The minimum reconciliation cost is: 5
+The total number of optimal rootings is: 3
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[266835_msl5852, 266834_RA0440]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[266835_msl5852, 266834_RA0440]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[266835_msl5852, 266834_RA0440]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[258594_RPA4623, 224911_bsr1757]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n54, 100 times].
+LCA[258594_RPA4623, 224911_bsr1757]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n54, 100 times].
+LCA[258594_RPA4623, 224911_bsr1757]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n54, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[103690_asr1409, 266834_RA0440]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 103690, 56 times], [Most Frequent recipient --> n53, 56 times].
+LCA[103690_asr1409, 266834_RA0440]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].
+LCA[266835_msl5852, 224911_bsr1757]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].

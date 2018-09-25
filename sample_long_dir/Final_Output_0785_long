@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG0785/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(196627_cg0522,(83331_MT0549,(243276_TP0101,(((186497_PF0915,187420_MTH1746),((13773_PAE1538,13773_PAE2751),83331_MT2942)),((85962_HP0265,235279_HH1767),273121_WS1481)))));
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[186497_PF0915, 187420_MTH1746]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n8, 100 times].
+LCA[13773_PAE1538, 13773_PAE2751]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 13773, 100 times].
+LCA[13773_PAE1538, 83331_MT2942]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 100 times], [Most Frequent recipient --> 13773, 100 times].
+LCA[186497_PF0915, 83331_MT2942]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 100 times], [Most Frequent recipient --> n8, 100 times].
+LCA[85962_HP0265, 235279_HH1767]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n48, 100 times].
+LCA[85962_HP0265, 273121_WS1481]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n47, 100 times].
+LCA[186497_PF0915, 273121_WS1481]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 100 times], [Most Frequent recipient --> n47, 100 times].
+LCA[243276_TP0101, 273121_WS1481]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 100 times], [Most Frequent recipient --> 243276, 100 times].
+LCA[83331_MT0549, 273121_WS1481]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 83331, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[196627_cg0522, 273121_WS1481]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].

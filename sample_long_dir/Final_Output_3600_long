@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG3600/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(251221_glr3897,((160492_Xf0537,(196627_cg0378,272623_LL1932)),190650_CC3515));
+((160492_Xf0537,(196627_cg0378,272623_LL1932)),(190650_CC3515,251221_glr3897));
+(160492_Xf0537,((196627_cg0378,272623_LL1932),(190650_CC3515,251221_glr3897)));
+(((190650_CC3515,251221_glr3897),160492_Xf0537),(196627_cg0378,272623_LL1932));
+(196627_cg0378,(272623_LL1932,((190650_CC3515,251221_glr3897),160492_Xf0537)));
+((((190650_CC3515,251221_glr3897),160492_Xf0537),196627_cg0378),272623_LL1932);
+((251221_glr3897,(160492_Xf0537,(196627_cg0378,272623_LL1932))),190650_CC3515);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[160492_Xf0537, 251221_glr3897]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 160492, 27 times], [Most Frequent recipient --> 251221, 34 times].
+LCA[160492_Xf0537, 251221_glr3897]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 160492, 53 times], [Most Frequent recipient --> 160492, 47 times].
+LCA[190650_CC3515, 272623_LL1932]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 160492, 37 times], [Most Frequent recipient --> 196627, 31 times].
+LCA[190650_CC3515, 272623_LL1932]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272623, 43 times], [Most Frequent recipient --> 272623, 57 times].
+LCA[196627_cg0378, 160492_Xf0537]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 196627, 50 times], [Most Frequent recipient --> 196627, 50 times].
+LCA[251221_glr3897, 190650_CC3515]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190650, 58 times], [Most Frequent recipient --> 190650, 42 times].
+LCA[251221_glr3897, 190650_CC3515]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 251221, 51 times], [Most Frequent recipient --> 251221, 49 times].

@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG4852/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(272626_lin0598,(272623_LL0580,(((243231_GSU2331,243164_DET0763),258594_RPA3178),176299_AGR_C_3604)));
+(272623_LL0580,((((243231_GSU2331,243164_DET0763),258594_RPA3178),176299_AGR_C_3604),272626_lin0598));
+((272626_lin0598,272623_LL0580),(((243231_GSU2331,243164_DET0763),258594_RPA3178),176299_AGR_C_3604));
+(((243231_GSU2331,243164_DET0763),258594_RPA3178),(176299_AGR_C_3604,(272626_lin0598,272623_LL0580)));
+((243231_GSU2331,243164_DET0763),(258594_RPA3178,(176299_AGR_C_3604,(272626_lin0598,272623_LL0580))));
+(243231_GSU2331,(243164_DET0763,(258594_RPA3178,(176299_AGR_C_3604,(272626_lin0598,272623_LL0580)))));
+(((258594_RPA3178,(176299_AGR_C_3604,(272626_lin0598,272623_LL0580))),243231_GSU2331),243164_DET0763);
+(((176299_AGR_C_3604,(272626_lin0598,272623_LL0580)),(243231_GSU2331,243164_DET0763)),258594_RPA3178);
+(((272626_lin0598,272623_LL0580),((243231_GSU2331,243164_DET0763),258594_RPA3178)),176299_AGR_C_3604);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[176299_AGR_C_3604, 258594_RPA3178]: [Speciations = 51, Duplications = 0, Transfers = 49], [Most Frequent mapping --> n53, 51 times], [Most Frequent recipient --> 258594, 28 times].
+LCA[243231_GSU2331, 272623_LL0580]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243231, 26 times], [Most Frequent recipient --> 243164, 33 times].
+LCA[243231_GSU2331, 272623_LL0580]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243231, 56 times], [Most Frequent recipient --> 243231, 44 times].
+LCA[243231_GSU2331, 272623_LL0580]: [Speciations = 41, Duplications = 0, Transfers = 59], [Most Frequent mapping --> n53, 41 times], [Most Frequent recipient --> 258594, 16 times].
+LCA[258594_RPA3178, 243164_DET0763]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243164, 45 times], [Most Frequent recipient --> 243164, 55 times].
+LCA[272623_LL0580, 272626_lin0598]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272623, 54 times], [Most Frequent recipient --> 272623, 46 times].
+LCA[272626_lin0598, 176299_AGR_C_3604]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272623, 30 times], [Most Frequent recipient --> 272623, 30 times].
+LCA[272626_lin0598, 176299_AGR_C_3604]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272626, 47 times], [Most Frequent recipient --> 272626, 53 times].
+LCA[272626_lin0598, 176299_AGR_C_3604]: [Speciations = 35, Duplications = 0, Transfers = 65], [Most Frequent mapping --> n53, 35 times], [Most Frequent recipient --> 176299, 33 times].

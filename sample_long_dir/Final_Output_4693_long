@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG4693/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(100226_SCO7685,((187410_y3419,((187410_y2401,74109_PBPRA1665),267608_RSc1805)),208964_PA4224));
+((187410_y3419,((187410_y2401,74109_PBPRA1665),267608_RSc1805)),(208964_PA4224,100226_SCO7685));
+(187410_y3419,(((187410_y2401,74109_PBPRA1665),267608_RSc1805),(208964_PA4224,100226_SCO7685)));
+(((208964_PA4224,100226_SCO7685),187410_y3419),((187410_y2401,74109_PBPRA1665),267608_RSc1805));
+((187410_y2401,74109_PBPRA1665),(267608_RSc1805,((208964_PA4224,100226_SCO7685),187410_y3419)));
+(187410_y2401,(74109_PBPRA1665,(267608_RSc1805,((208964_PA4224,100226_SCO7685),187410_y3419))));
+(((267608_RSc1805,((208964_PA4224,100226_SCO7685),187410_y3419)),187410_y2401),74109_PBPRA1665);
+((((208964_PA4224,100226_SCO7685),187410_y3419),(187410_y2401,74109_PBPRA1665)),267608_RSc1805);
+((100226_SCO7685,(187410_y3419,((187410_y2401,74109_PBPRA1665),267608_RSc1805))),208964_PA4224);
+
+
+The minimum reconciliation cost is: 14
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO7685, 208964_PA4224]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 44 times], [Most Frequent recipient --> 100226, 56 times].
+LCA[100226_SCO7685, 208964_PA4224]: [Speciations = 55, Duplications = 0, Transfers = 45], [Most Frequent mapping --> n66, 55 times], [Most Frequent recipient --> 208964, 26 times].
+LCA[187410_y2401, 187410_y3419]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 187410, 100 times].
+LCA[187410_y2401, 187410_y3419]: [Speciations = 31, Duplications = 69, Transfers = 0], [Most Frequent mapping --> 187410, 69 times].
+LCA[187410_y3419, 100226_SCO7685]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 187410, 100 times].
+LCA[187410_y3419, 100226_SCO7685]: [Speciations = 39, Duplications = 0, Transfers = 61], [Most Frequent mapping --> n66, 39 times], [Most Frequent recipient --> 187410, 28 times].
+LCA[208964_PA4224, 267608_RSc1805]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 53 times], [Most Frequent recipient --> 267608, 47 times].
+LCA[208964_PA4224, 267608_RSc1805]: [Speciations = 49, Duplications = 51, Transfers = 0], [Most Frequent mapping --> 187410, 51 times].
+LCA[267608_RSc1805, 74109_PBPRA1665]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 187410, 54 times], [Most Frequent recipient --> 74109, 54 times].

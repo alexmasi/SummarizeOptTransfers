@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG4271/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((83333_ECOK12F039,((211586_SO2763,(160492_Xf0629,267608_RSc2614)),260799_BAS3810)),(188937_MA3266,190650_CC2702));
+(83333_ECOK12F039,(((211586_SO2763,(160492_Xf0629,267608_RSc2614)),260799_BAS3810),(188937_MA3266,190650_CC2702)));
+(((188937_MA3266,190650_CC2702),83333_ECOK12F039),((211586_SO2763,(160492_Xf0629,267608_RSc2614)),260799_BAS3810));
+((211586_SO2763,(160492_Xf0629,267608_RSc2614)),(260799_BAS3810,((188937_MA3266,190650_CC2702),83333_ECOK12F039)));
+(211586_SO2763,((160492_Xf0629,267608_RSc2614),(260799_BAS3810,((188937_MA3266,190650_CC2702),83333_ECOK12F039))));
+(((260799_BAS3810,((188937_MA3266,190650_CC2702),83333_ECOK12F039)),211586_SO2763),(160492_Xf0629,267608_RSc2614));
+(160492_Xf0629,(267608_RSc2614,((260799_BAS3810,((188937_MA3266,190650_CC2702),83333_ECOK12F039)),211586_SO2763)));
+((((260799_BAS3810,((188937_MA3266,190650_CC2702),83333_ECOK12F039)),211586_SO2763),160492_Xf0629),267608_RSc2614);
+((((188937_MA3266,190650_CC2702),83333_ECOK12F039),(211586_SO2763,(160492_Xf0629,267608_RSc2614))),260799_BAS3810);
+(188937_MA3266,(190650_CC2702,(83333_ECOK12F039,((211586_SO2763,(160492_Xf0629,267608_RSc2614)),260799_BAS3810))));
+(((83333_ECOK12F039,((211586_SO2763,(160492_Xf0629,267608_RSc2614)),260799_BAS3810)),188937_MA3266),190650_CC2702);
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 11
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[160492_Xf0629, 211586_SO2763]: [Speciations = 43, Duplications = 0, Transfers = 57], [Most Frequent mapping --> n64, 43 times], [Most Frequent recipient --> 160492, 21 times].
+LCA[188937_MA3266, 260799_BAS3810]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 188937, 51 times], [Most Frequent recipient --> 188937, 49 times].
+LCA[188937_MA3266, 260799_BAS3810]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 260799, 27 times], [Most Frequent recipient --> 260799, 24 times].
+LCA[188937_MA3266, 260799_BAS3810]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 260799, 51 times], [Most Frequent recipient --> 260799, 49 times].
+LCA[211586_SO2763, 83333_ECOK12F039]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 260799, 27 times], [Most Frequent recipient --> 260799, 31 times].
+LCA[211586_SO2763, 83333_ECOK12F039]: [Speciations = 25, Duplications = 0, Transfers = 75], [Most Frequent mapping --> 211586, 33 times], [Most Frequent recipient --> 211586, 42 times].
+LCA[260799_BAS3810, 267608_RSc2614]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 45 times], [Most Frequent recipient --> 267608, 55 times].
+LCA[260799_BAS3810, 267608_RSc2614]: [Speciations = 38, Duplications = 0, Transfers = 62], [Most Frequent mapping --> n64, 38 times], [Most Frequent recipient --> 267608, 18 times].
+LCA[83333_ECOK12F039, 190650_CC2702]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190650, 28 times], [Most Frequent recipient --> 188937, 25 times].
+LCA[83333_ECOK12F039, 190650_CC2702]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190650, 52 times], [Most Frequent recipient --> 190650, 48 times].
+LCA[83333_ECOK12F039, 190650_CC2702]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83333, 42 times], [Most Frequent recipient --> 83333, 58 times].

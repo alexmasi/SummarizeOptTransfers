@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG4966/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((228410_NE1749,160492_Xf0030),((243365_CV3113,122586_NMB0888),(((267608_RSc0720,267608_RSc0726),267608_RSc2677),267608_RSp1290))),((190485_XCC2493,160492_Xf0475),208964_PA4552));
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[228410_NE1749, 160492_Xf0030]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 228410, 100 times], [Most Frequent recipient --> 160492, 100 times].
+LCA[243365_CV3113, 122586_NMB0888]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n62, 100 times].
+LCA[267608_RSc0720, 267608_RSc0726]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 267608, 100 times].
+LCA[267608_RSc0720, 267608_RSc2677]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 267608, 100 times].
+LCA[267608_RSc0720, 267608_RSp1290]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 267608, 100 times].
+LCA[243365_CV3113, 267608_RSp1290]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[228410_NE1749, 267608_RSp1290]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n59, 100 times].
+LCA[190485_XCC2493, 160492_Xf0475]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n65, 100 times].
+LCA[190485_XCC2493, 208964_PA4552]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n64, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[228410_NE1749, 208964_PA4552]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n58, 100 times].

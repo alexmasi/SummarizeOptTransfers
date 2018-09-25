@@ -1,0 +1,24 @@
+Input file: ../raw-data/original_seqs/COG4365/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(221109_OB1460,((((204669_Acid345_2181,234267_400007190),194439_CT1558),260799_BAS3770),224308_BSU15120));
+
+
+The minimum reconciliation cost is: 6
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[204669_Acid345_2181, 234267_400007190]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[204669_Acid345_2181, 194439_CT1558]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 59 times], [Most Frequent recipient --> n44, 59 times].
+LCA[204669_Acid345_2181, 260799_BAS3770]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 260799, 100 times], [Most Frequent recipient --> 194439, 59 times].
+LCA[204669_Acid345_2181, 224308_BSU15120]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[221109_OB1460, 224308_BSU15120]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n33, 100 times].

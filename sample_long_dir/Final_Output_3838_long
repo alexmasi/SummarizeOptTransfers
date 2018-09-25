@@ -1,0 +1,33 @@
+Input file: ../raw-data/original_seqs/COG3838/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((((160492_Xfa0005,((267608_RSc2583,(((266835_mll9610,266835_mlr6398),(176299_AGR_pTi_87,(176299_AGR_pTi_4,160492_Xf2055))),(224911_bll8287,258594_RPA4123))),258594_RPA2232)),((176299_AGR_pAT_220,266834_RA0718),266835_mlr9249)),190650_CC2417),272947_RP192);
+
+
+The minimum reconciliation cost is: 21
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[266835_mll9610, 266835_mlr6398]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 266835, 100 times].
+LCA[176299_AGR_pTi_4, 160492_Xf2055]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 176299, 100 times], [Most Frequent recipient --> 160492, 100 times].
+LCA[176299_AGR_pTi_87, 160492_Xf2055]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 176299, 100 times].
+LCA[266835_mll9610, 160492_Xf2055]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[224911_bll8287, 258594_RPA4123]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n54, 100 times].
+LCA[266835_mll9610, 258594_RPA4123]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].
+LCA[267608_RSc2583, 258594_RPA4123]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 100 times], [Most Frequent recipient --> n53, 100 times].
+LCA[267608_RSc2583, 258594_RPA2232]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 74 times], [Most Frequent recipient --> 267608, 100 times].
+LCA[160492_Xfa0005, 258594_RPA2232]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n54, 60 times], [Most Frequent recipient --> 160492, 100 times].
+LCA[176299_AGR_pAT_220, 266834_RA0718]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n57, 100 times].
+LCA[176299_AGR_pAT_220, 266835_mlr9249]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[160492_Xfa0005, 266835_mlr9249]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].
+LCA[160492_Xfa0005, 190650_CC2417]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n52, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[160492_Xfa0005, 272947_RP192]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n50, 100 times].

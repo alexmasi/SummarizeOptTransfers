@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG4923/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(190485_XCC1080,((((188937_MA1954,273068_TTE0418),243274_TM0947),224911_blr4030),266835_mlr4134));
+((((188937_MA1954,273068_TTE0418),243274_TM0947),224911_blr4030),(266835_mlr4134,190485_XCC1080));
+(((188937_MA1954,273068_TTE0418),243274_TM0947),(224911_blr4030,(266835_mlr4134,190485_XCC1080)));
+((188937_MA1954,273068_TTE0418),(243274_TM0947,(224911_blr4030,(266835_mlr4134,190485_XCC1080))));
+(188937_MA1954,(273068_TTE0418,(243274_TM0947,(224911_blr4030,(266835_mlr4134,190485_XCC1080)))));
+(((243274_TM0947,(224911_blr4030,(266835_mlr4134,190485_XCC1080))),188937_MA1954),273068_TTE0418);
+(((224911_blr4030,(266835_mlr4134,190485_XCC1080)),(188937_MA1954,273068_TTE0418)),243274_TM0947);
+(((266835_mlr4134,190485_XCC1080),((188937_MA1954,273068_TTE0418),243274_TM0947)),224911_blr4030);
+((190485_XCC1080,(((188937_MA1954,273068_TTE0418),243274_TM0947),224911_blr4030)),266835_mlr4134);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[188937_MA1954, 190485_XCC1080]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 188937, 54 times], [Most Frequent recipient --> 188937, 46 times].
+LCA[188937_MA1954, 190485_XCC1080]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 26 times], [Most Frequent recipient --> 188937, 26 times].
+LCA[188937_MA1954, 190485_XCC1080]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 31 times], [Most Frequent recipient --> n53, 21 times].
+LCA[188937_MA1954, 190485_XCC1080]: [Speciations = 43, Duplications = 0, Transfers = 57], [Most Frequent mapping --> n53, 43 times], [Most Frequent recipient --> 266835, 21 times].
+LCA[190485_XCC1080, 266835_mlr4134]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190485, 46 times], [Most Frequent recipient --> 190485, 54 times].
+LCA[190485_XCC1080, 266835_mlr4134]: [Speciations = 25, Duplications = 0, Transfers = 75], [Most Frequent mapping --> 266835, 43 times], [Most Frequent recipient --> 266835, 32 times].
+LCA[224911_blr4030, 243274_TM0947]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 51 times], [Most Frequent recipient --> 243274, 49 times].
+LCA[243274_TM0947, 273068_TTE0418]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 273068, 57 times], [Most Frequent recipient --> 273068, 43 times].
+LCA[266835_mlr4134, 224911_blr4030]: [Speciations = 35, Duplications = 0, Transfers = 65], [Most Frequent mapping --> n53, 35 times], [Most Frequent recipient --> 224911, 36 times].

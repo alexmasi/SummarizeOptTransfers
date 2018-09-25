@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG3779/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(83333_b2071,((224911_bll7458,(117_RB7970,((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171)))),266835_mlr2620));
+((224911_bll7458,(117_RB7970,((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171)))),(266835_mlr2620,83333_b2071));
+(224911_bll7458,((117_RB7970,((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171))),(266835_mlr2620,83333_b2071)));
+(((266835_mlr2620,83333_b2071),224911_bll7458),(117_RB7970,((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171))));
+(117_RB7970,(((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171)),((266835_mlr2620,83333_b2071),224911_bll7458)));
+((((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970),((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171)));
+((117_RB1731,190485_XCC1196),((122586_NMB1133,122586_NMB1171),(((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970)));
+(117_RB1731,(190485_XCC1196,((122586_NMB1133,122586_NMB1171),(((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970))));
+((((122586_NMB1133,122586_NMB1171),(((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970)),117_RB1731),190485_XCC1196);
+(((((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970),(117_RB1731,190485_XCC1196)),(122586_NMB1133,122586_NMB1171));
+(122586_NMB1133,(122586_NMB1171,((((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970),(117_RB1731,190485_XCC1196))));
+((((((266835_mlr2620,83333_b2071),224911_bll7458),117_RB7970),(117_RB1731,190485_XCC1196)),122586_NMB1133),122586_NMB1171);
+((83333_b2071,(224911_bll7458,(117_RB7970,((117_RB1731,190485_XCC1196),(122586_NMB1133,122586_NMB1171))))),266835_mlr2620);
+
+
+The minimum reconciliation cost is: 19
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[117_RB1731, 117_RB7970]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[117_RB1731, 117_RB7970]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[117_RB7970, 224911_bll7458]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[122586_NMB1133, 190485_XCC1196]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 60 times], [Most Frequent recipient --> 190485, 60 times].
+LCA[122586_NMB1133, 190485_XCC1196]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 122586, 100 times].
+LCA[224911_bll7458, 83333_b2071]: [Speciations = 36, Duplications = 0, Transfers = 64], [Most Frequent mapping --> n53, 36 times], [Most Frequent recipient --> 224911, 21 times].
+LCA[224911_bll7458, 83333_b2071]: [Speciations = 44, Duplications = 0, Transfers = 56], [Most Frequent mapping --> n53, 44 times], [Most Frequent recipient --> 224911, 22 times].
+LCA[266835_mlr2620, 122586_NMB1171]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 48 times], [Most Frequent recipient --> 117, 52 times].
+LCA[266835_mlr2620, 122586_NMB1171]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 53 times], [Most Frequent recipient --> 122586, 53 times].
+LCA[266835_mlr2620, 122586_NMB1171]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 117, 100 times].
+LCA[266835_mlr2620, 122586_NMB1171]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 122586, 100 times].
+LCA[83333_b2071, 266835_mlr2620]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83333, 51 times], [Most Frequent recipient --> 83333, 49 times].
+LCA[83333_b2071, 266835_mlr2620]: [Speciations = 27, Duplications = 0, Transfers = 73], [Most Frequent mapping --> 266835, 35 times], [Most Frequent recipient --> 266835, 38 times].

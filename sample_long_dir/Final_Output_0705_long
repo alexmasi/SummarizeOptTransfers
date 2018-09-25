@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG0705/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((117_RB4835,(100226_SCO2023,209261_t3989)),(9606_ENSP00000262316,9598_ENSPTRP00000012854));
+(117_RB4835,((100226_SCO2023,209261_t3989),(9606_ENSP00000262316,9598_ENSPTRP00000012854)));
+(((9606_ENSP00000262316,9598_ENSPTRP00000012854),117_RB4835),(100226_SCO2023,209261_t3989));
+(100226_SCO2023,(209261_t3989,((9606_ENSP00000262316,9598_ENSPTRP00000012854),117_RB4835)));
+((((9606_ENSP00000262316,9598_ENSPTRP00000012854),117_RB4835),100226_SCO2023),209261_t3989);
+(9606_ENSP00000262316,(9598_ENSPTRP00000012854,(117_RB4835,(100226_SCO2023,209261_t3989))));
+(((117_RB4835,(100226_SCO2023,209261_t3989)),9606_ENSP00000262316),9598_ENSPTRP00000012854);
+
+
+The minimum reconciliation cost is: 9
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO2023, 117_RB4835]: [Speciations = 27, Duplications = 0, Transfers = 73], [Most Frequent mapping --> 100226, 38 times], [Most Frequent recipient --> 100226, 35 times].
+LCA[117_RB4835, 9598_ENSPTRP00000012854]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n23, 53 times], [Most Frequent recipient --> n23, 47 times].
+LCA[117_RB4835, 9598_ENSPTRP00000012854]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[117_RB4835, 9598_ENSPTRP00000012854]: [Speciations = 45, Duplications = 0, Transfers = 55], [Most Frequent mapping --> n92, 45 times], [Most Frequent recipient --> n23, 17 times].
+LCA[9606_ENSP00000262316, 209261_t3989]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 209261, 60 times], [Most Frequent recipient --> 209261, 40 times].
+LCA[9606_ENSP00000262316, 209261_t3989]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[9606_ENSP00000262316, 209261_t3989]: [Speciations = 42, Duplications = 0, Transfers = 58], [Most Frequent mapping --> n92, 42 times], [Most Frequent recipient --> 117, 18 times].

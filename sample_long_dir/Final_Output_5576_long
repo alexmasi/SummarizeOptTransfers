@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG5576/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((4932_YDL106C,(4932_YDR451C,4932_YML027W)),((((10090_ENSMUSP00000028003,(9606_ENSP00000294816,9598_ENSPTRP00000002699)),7955_ENSDARP00000013044),(7955_ENSDARP00000012903,(9598_ENSPTRP00000012508,9606_ENSP00000290759))),7227_CG11186_PA));
+
+
+The minimum reconciliation cost is: 8
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[4932_YDR451C, 4932_YML027W]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 4932, 100 times].
+LCA[4932_YDL106C, 4932_YML027W]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 4932, 100 times].
+LCA[9606_ENSP00000294816, 9598_ENSPTRP00000002699]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[10090_ENSMUSP00000028003, 9598_ENSPTRP00000002699]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[10090_ENSMUSP00000028003, 7955_ENSDARP00000013044]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[9598_ENSPTRP00000012508, 9606_ENSP00000290759]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[7955_ENSDARP00000012903, 9606_ENSP00000290759]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[10090_ENSMUSP00000028003, 9606_ENSP00000290759]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[10090_ENSMUSP00000028003, 7227_CG11186_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[4932_YDL106C, 7227_CG11186_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n18, 100 times].

@@ -1,0 +1,24 @@
+Input file: ../raw-data/original_seqs/COG5076/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((7955_ENSDARP00000039035,(9606_ENSP00000296302,9598_ENSPTRP00000041918)),(7955_ENSDARP00000052914,(9598_ENSPTRP00000002411,10090_ENSMUSP00000088450)));
+
+
+The minimum reconciliation cost is: 4
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[9606_ENSP00000296302, 9598_ENSPTRP00000041918]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[7955_ENSDARP00000039035, 9598_ENSPTRP00000041918]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[9598_ENSPTRP00000002411, 10090_ENSMUSP00000088450]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7955_ENSDARP00000052914, 10090_ENSMUSP00000088450]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[7955_ENSDARP00000039035, 10090_ENSMUSP00000088450]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n21, 100 times].

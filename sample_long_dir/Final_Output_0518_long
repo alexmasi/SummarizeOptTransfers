@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG0518/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((4932_YLR126C,208964_PA1742),(190650_CC0409,(((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262),(266835_mll8746,196627_cg1739))));
+(4932_YLR126C,(208964_PA1742,(190650_CC0409,(((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262),(266835_mll8746,196627_cg1739)))));
+(((190650_CC0409,(((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262),(266835_mll8746,196627_cg1739))),4932_YLR126C),208964_PA1742);
+(190650_CC0409,((((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262),(266835_mll8746,196627_cg1739)),(4932_YLR126C,208964_PA1742)));
+(((4932_YLR126C,208964_PA1742),190650_CC0409),(((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262),(266835_mll8746,196627_cg1739)));
+(((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262),((266835_mll8746,196627_cg1739),((4932_YLR126C,208964_PA1742),190650_CC0409)));
+((267608_RSc0213,520_BP1437),(190485_AE008922_GR_4862498_4863262,((266835_mll8746,196627_cg1739),((4932_YLR126C,208964_PA1742),190650_CC0409))));
+(267608_RSc0213,(520_BP1437,(190485_AE008922_GR_4862498_4863262,((266835_mll8746,196627_cg1739),((4932_YLR126C,208964_PA1742),190650_CC0409)))));
+(((190485_AE008922_GR_4862498_4863262,((266835_mll8746,196627_cg1739),((4932_YLR126C,208964_PA1742),190650_CC0409))),267608_RSc0213),520_BP1437);
+((((266835_mll8746,196627_cg1739),((4932_YLR126C,208964_PA1742),190650_CC0409)),(267608_RSc0213,520_BP1437)),190485_AE008922_GR_4862498_4863262);
+((((4932_YLR126C,208964_PA1742),190650_CC0409),((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262)),(266835_mll8746,196627_cg1739));
+(266835_mll8746,(196627_cg1739,(((4932_YLR126C,208964_PA1742),190650_CC0409),((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262))));
+(((((4932_YLR126C,208964_PA1742),190650_CC0409),((267608_RSc0213,520_BP1437),190485_AE008922_GR_4862498_4863262)),266835_mll8746),196627_cg1739);
+
+
+The minimum reconciliation cost is: 17
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190485_AE008922_GR_4862498_4863262, 520_BP1437]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n61, 100 times].
+LCA[190650_CC0409, 208964_PA1742]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190650, 50 times], [Most Frequent recipient --> 190650, 50 times].
+LCA[190650_CC0409, 208964_PA1742]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n64, 100 times].
+LCA[266835_mll8746, 190485_AE008922_GR_4862498_4863262]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 52 times], [Most Frequent recipient --> 266835, 48 times].
+LCA[266835_mll8746, 190485_AE008922_GR_4862498_4863262]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n64, 100 times].
+LCA[267608_RSc0213, 190650_CC0409]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n61, 100 times].
+LCA[267608_RSc0213, 190650_CC0409]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n64, 100 times].
+LCA[267608_RSc0213, 190650_CC0409]: [Speciations = 35, Duplications = 0, Transfers = 65], [Most Frequent mapping --> n61, 36 times], [Most Frequent recipient --> n64, 36 times].
+LCA[4932_YLR126C, 196627_cg1739]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 196627, 52 times], [Most Frequent recipient --> 196627, 48 times].
+LCA[4932_YLR126C, 196627_cg1739]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n64, 48 times], [Most Frequent recipient --> n64, 52 times].
+LCA[4932_YLR126C, 196627_cg1739]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n64, 57 times], [Most Frequent recipient --> 4932, 57 times].
+LCA[4932_YLR126C, 196627_cg1739]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n64, 100 times].
+LCA[4932_YLR126C, 196627_cg1739]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n64, 100 times].

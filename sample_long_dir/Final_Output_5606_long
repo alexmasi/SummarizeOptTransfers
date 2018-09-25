@@ -1,0 +1,48 @@
+Input file: ../raw-data/original_seqs/COG5606/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(234267_400033420,((74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828)),((204669_Acid345_3587,103690_all1033),209261_t3391)));
+((74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828)),(((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420));
+(74109_PBPRB0419,(((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828),(((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420)));
+(((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419),((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828));
+((228410_NE1354,(160492_Xf1677,160492_Xf1572)),(258594_RPA3828,((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419)));
+(228410_NE1354,((160492_Xf1677,160492_Xf1572),(258594_RPA3828,((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419))));
+(((258594_RPA3828,((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419)),228410_NE1354),(160492_Xf1677,160492_Xf1572));
+(160492_Xf1677,(160492_Xf1572,((258594_RPA3828,((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419)),228410_NE1354)));
+((((258594_RPA3828,((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419)),228410_NE1354),160492_Xf1677),160492_Xf1572);
+((((((204669_Acid345_3587,103690_all1033),209261_t3391),234267_400033420),74109_PBPRB0419),(228410_NE1354,(160492_Xf1677,160492_Xf1572))),258594_RPA3828);
+((234267_400033420,(74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828))),((204669_Acid345_3587,103690_all1033),209261_t3391));
+((204669_Acid345_3587,103690_all1033),(209261_t3391,(234267_400033420,(74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828)))));
+(204669_Acid345_3587,(103690_all1033,(209261_t3391,(234267_400033420,(74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828))))));
+(((209261_t3391,(234267_400033420,(74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828)))),204669_Acid345_3587),103690_all1033);
+(((234267_400033420,(74109_PBPRB0419,((228410_NE1354,(160492_Xf1677,160492_Xf1572)),258594_RPA3828))),(204669_Acid345_3587,103690_all1033)),209261_t3391);
+
+
+The minimum reconciliation cost is: 20
+The total number of optimal rootings is: 15
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[160492_Xf1677, 228410_NE1354]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 160492, 100 times].
+LCA[204669_Acid345_3587, 258594_RPA3828]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 26 times], [Most Frequent recipient --> 74109, 28 times].
+LCA[204669_Acid345_3587, 258594_RPA3828]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 50 times], [Most Frequent recipient --> 258594, 50 times].
+LCA[204669_Acid345_3587, 258594_RPA3828]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[204669_Acid345_3587, 258594_RPA3828]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[209261_t3391, 103690_all1033]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 103690, 54 times], [Most Frequent recipient --> n44, 54 times].
+LCA[228410_NE1354, 74109_PBPRB0419]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 228410, 32 times], [Most Frequent recipient --> 258594, 31 times].
+LCA[228410_NE1354, 74109_PBPRB0419]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 228410, 49 times], [Most Frequent recipient --> 228410, 51 times].
+LCA[234267_400033420, 209261_t3391]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n44, 51 times], [Most Frequent recipient --> 209261, 51 times].
+LCA[234267_400033420, 209261_t3391]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[234267_400033420, 209261_t3391]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[258594_RPA3828, 160492_Xf1572]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 160492, 48 times], [Most Frequent recipient --> 160492, 52 times].
+LCA[258594_RPA3828, 160492_Xf1572]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 160492, 100 times].
+LCA[74109_PBPRB0419, 234267_400033420]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 74109, 50 times], [Most Frequent recipient --> 74109, 50 times].
+LCA[74109_PBPRB0419, 234267_400033420]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n44, 46 times], [Most Frequent recipient --> n44, 54 times].

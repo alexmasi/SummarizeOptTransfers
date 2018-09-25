@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG4792/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(266835_mlr6346,(224911_blr1822,((243365_CV2610,(187410_y0533,209261_t1290)),((882_DVUA0101,520_BP2237),208964_PA1690))));
+(224911_blr1822,(((243365_CV2610,(187410_y0533,209261_t1290)),((882_DVUA0101,520_BP2237),208964_PA1690)),266835_mlr6346));
+((266835_mlr6346,224911_blr1822),((243365_CV2610,(187410_y0533,209261_t1290)),((882_DVUA0101,520_BP2237),208964_PA1690)));
+((243365_CV2610,(187410_y0533,209261_t1290)),(((882_DVUA0101,520_BP2237),208964_PA1690),(266835_mlr6346,224911_blr1822)));
+(243365_CV2610,((187410_y0533,209261_t1290),(((882_DVUA0101,520_BP2237),208964_PA1690),(266835_mlr6346,224911_blr1822))));
+(((((882_DVUA0101,520_BP2237),208964_PA1690),(266835_mlr6346,224911_blr1822)),243365_CV2610),(187410_y0533,209261_t1290));
+(187410_y0533,(209261_t1290,((((882_DVUA0101,520_BP2237),208964_PA1690),(266835_mlr6346,224911_blr1822)),243365_CV2610)));
+((((((882_DVUA0101,520_BP2237),208964_PA1690),(266835_mlr6346,224911_blr1822)),243365_CV2610),187410_y0533),209261_t1290);
+(((266835_mlr6346,224911_blr1822),(243365_CV2610,(187410_y0533,209261_t1290))),((882_DVUA0101,520_BP2237),208964_PA1690));
+((882_DVUA0101,520_BP2237),(208964_PA1690,((266835_mlr6346,224911_blr1822),(243365_CV2610,(187410_y0533,209261_t1290)))));
+(882_DVUA0101,(520_BP2237,(208964_PA1690,((266835_mlr6346,224911_blr1822),(243365_CV2610,(187410_y0533,209261_t1290))))));
+(((208964_PA1690,((266835_mlr6346,224911_blr1822),(243365_CV2610,(187410_y0533,209261_t1290)))),882_DVUA0101),520_BP2237);
+((((266835_mlr6346,224911_blr1822),(243365_CV2610,(187410_y0533,209261_t1290))),(882_DVUA0101,520_BP2237)),208964_PA1690);
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[187410_y0533, 243365_CV2610]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].
+LCA[208964_PA1690, 520_BP2237]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[224911_blr1822, 266835_mlr6346]: [Speciations = 45, Duplications = 0, Transfers = 55], [Most Frequent mapping --> n53, 45 times], [Most Frequent recipient --> 224911, 27 times].
+LCA[243365_CV2610, 224911_blr1822]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[243365_CV2610, 224911_blr1822]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[266835_mlr6346, 208964_PA1690]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n60, 54 times], [Most Frequent recipient --> n60, 46 times].
+LCA[266835_mlr6346, 208964_PA1690]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n60, 58 times], [Most Frequent recipient --> 208964, 58 times].
+LCA[266835_mlr6346, 208964_PA1690]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[266835_mlr6346, 208964_PA1690]: [Speciations = 27, Duplications = 0, Transfers = 73], [Most Frequent mapping --> 266835, 34 times], [Most Frequent recipient --> 266835, 39 times].
+LCA[882_DVUA0101, 209261_t1290]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 882, 55 times], [Most Frequent recipient --> n60, 55 times].
+LCA[882_DVUA0101, 209261_t1290]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n60, 50 times], [Most Frequent recipient --> n60, 50 times].
+LCA[882_DVUA0101, 209261_t1290]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[882_DVUA0101, 209261_t1290]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].

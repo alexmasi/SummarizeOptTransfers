@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG0277/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(520_BP0651,((882_DVU3071,208964_PA4140),4932_YML086C));
+((882_DVU3071,208964_PA4140),(4932_YML086C,520_BP0651));
+(882_DVU3071,(208964_PA4140,(4932_YML086C,520_BP0651)));
+(((4932_YML086C,520_BP0651),882_DVU3071),208964_PA4140);
+((520_BP0651,(882_DVU3071,208964_PA4140)),4932_YML086C);
+
+
+The minimum reconciliation cost is: 9
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[4932_YML086C, 208964_PA4140]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 208964, 53 times], [Most Frequent recipient --> 208964, 47 times].
+LCA[520_BP0651, 4932_YML086C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 4932, 44 times], [Most Frequent recipient --> 4932, 56 times].
+LCA[520_BP0651, 4932_YML086C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 520, 50 times], [Most Frequent recipient --> 520, 50 times].
+LCA[882_DVU3071, 520_BP0651]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 882, 29 times], [Most Frequent recipient --> 520, 32 times].
+LCA[882_DVU3071, 520_BP0651]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 882, 60 times], [Most Frequent recipient --> 882, 40 times].

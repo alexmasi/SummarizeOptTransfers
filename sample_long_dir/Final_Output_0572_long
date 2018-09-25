@@ -1,0 +1,93 @@
+Input file: ../raw-data/original_seqs/COG0572/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((251221_glr2296,(103690_alr4123,(269084_syc0567_d,3702_AT1G32060_1))),(251221_gll2122,(((((3702_AT1G73980_1,3702_AT1G26190_1),((4932_YNL129W,(959_Bd1530,959_Bd2645)),(((224326_BB0015,(233150_MYCGA4480,243273_MG382)),(((262724_TTC0210,(243365_CV1085,243230_DR0159)),((64091_VNG1219G,226186_BT0184),((((221109_OB2003,(224308_BSU27330,260799_BAS4276)),((220668_lp_1562,(226185_EF0825,(272623_LL1660,170187_SP1208))),272626_lin1532)),212717_CTC01064),(115711_CP0011,242619_PG1781)))),((4932_YNR012W,(6239_F19B6_1b,(((10090_ENSMUSP00000050398,9606_ENSP00000346155),(7955_ENSDARP00000038740,7955_ENSDARP00000045849)),7227_CG4798_PD))),(((3702_AT3G27440_1,((3702_AT5G40870_1,3702_AT3G27190_1),3702_AT1G55810_2)),(4932_YDR020C,(6239_B0001_4,(7227_CG6364_PA,(((9606_ENSP00000253015,9598_ENSPTRP00000036774),(10090_ENSMUSP00000002625,10090_ENSMUSP00000070581)),(((9606_ENSP00000271395,9598_ENSPTRP00000002709),10090_ENSMUSP00000027839),(7955_ENSDARP00000033495,(7955_ENSDARP00000018636,7955_ENSDARP00000003958)))))))),237895_Chro_80328)))),((((((209261_t0750,(198214_SF2130,83333_b2066)),187410_y2646),71421_HI0132),(243277_VC1038,74109_PBPRA1170)),211586_SO2617),227377_CBU0872)))),(184922_16549,((((273068_TTE1778,((212717_CTC00344,(242619_PG1745,226186_BT2527)),243274_TM0751)),243276_TP0667),262768_PAM142),184922_8217))),84588_SYNW1344),(103690_alr2350,251221_glr4424))));
+
+
+The minimum reconciliation cost is: 102
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[269084_syc0567_d, 3702_AT1G32060_1]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 269084, 100 times], [Most Frequent recipient --> 3702, 100 times].
+LCA[103690_alr4123, 3702_AT1G32060_1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[251221_glr2296, 3702_AT1G32060_1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[3702_AT1G73980_1, 3702_AT1G26190_1]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[959_Bd1530, 959_Bd2645]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 959, 100 times].
+LCA[4932_YNL129W, 959_Bd2645]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 4932, 67 times], [Most Frequent recipient --> 959, 96 times].
+LCA[233150_MYCGA4480, 243273_MG382]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n29, 100 times].
+LCA[224326_BB0015, 243273_MG382]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224326, 50 times], [Most Frequent recipient --> 224326, 50 times].
+LCA[243365_CV1085, 243230_DR0159]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243230, 100 times], [Most Frequent recipient --> 243365, 100 times].
+LCA[262724_TTC0210, 243230_DR0159]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n81, 100 times].
+LCA[64091_VNG1219G, 226186_BT0184]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226186, 100 times], [Most Frequent recipient --> 64091, 100 times].
+LCA[224308_BSU27330, 260799_BAS4276]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[221109_OB2003, 260799_BAS4276]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n33, 100 times].
+LCA[272623_LL1660, 170187_SP1208]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+LCA[226185_EF0825, 170187_SP1208]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n36, 100 times].
+LCA[220668_lp_1562, 170187_SP1208]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n35, 100 times].
+LCA[220668_lp_1562, 272626_lin1532]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272626, 100 times], [Most Frequent recipient --> n35, 100 times].
+LCA[221109_OB2003, 272626_lin1532]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[221109_OB2003, 212717_CTC01064]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 52 times], [Most Frequent recipient --> n32, 52 times].
+LCA[115711_CP0011, 242619_PG1781]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 242619, 100 times], [Most Frequent recipient --> 115711, 100 times].
+LCA[221109_OB2003, 242619_PG1781]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 242619, 100 times], [Most Frequent recipient --> 212717, 52 times].
+LCA[64091_VNG1219G, 242619_PG1781]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n90, 100 times].
+LCA[262724_TTC0210, 242619_PG1781]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n90, 51 times], [Most Frequent recipient --> n81, 51 times].
+LCA[10090_ENSMUSP00000050398, 9606_ENSP00000346155]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7955_ENSDARP00000038740, 7955_ENSDARP00000045849]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 7955, 100 times].
+LCA[10090_ENSMUSP00000050398, 7955_ENSDARP00000045849]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[10090_ENSMUSP00000050398, 7227_CG4798_PD]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[6239_F19B6_1b, 7227_CG4798_PD]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n19, 100 times].
+LCA[4932_YNR012W, 7227_CG4798_PD]: [Speciations = 99, Duplications = 0, Transfers = 1], [Most Frequent mapping --> n18, 99 times], [Most Frequent recipient --> 4932, 1 times].
+LCA[3702_AT5G40870_1, 3702_AT3G27190_1]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[3702_AT5G40870_1, 3702_AT1G55810_2]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[3702_AT3G27440_1, 3702_AT1G55810_2]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[9606_ENSP00000253015, 9598_ENSPTRP00000036774]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[10090_ENSMUSP00000002625, 10090_ENSMUSP00000070581]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 10090, 100 times].
+LCA[9606_ENSP00000253015, 10090_ENSMUSP00000070581]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[9606_ENSP00000271395, 9598_ENSPTRP00000002709]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[9606_ENSP00000271395, 10090_ENSMUSP00000027839]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7955_ENSDARP00000018636, 7955_ENSDARP00000003958]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 7955, 100 times].
+LCA[7955_ENSDARP00000033495, 7955_ENSDARP00000003958]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 7955, 100 times].
+LCA[9606_ENSP00000271395, 7955_ENSDARP00000003958]: [Speciations = 51, Duplications = 0, Transfers = 49], [Most Frequent mapping --> n21, 51 times], [Most Frequent recipient --> n22, 49 times].
+LCA[9606_ENSP00000253015, 7955_ENSDARP00000003958]: [Speciations = 49, Duplications = 51, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[7227_CG6364_PA, 7955_ENSDARP00000003958]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[6239_B0001_4, 7955_ENSDARP00000003958]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n19, 100 times].
+LCA[4932_YDR020C, 7955_ENSDARP00000003958]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n18, 100 times].
+LCA[3702_AT3G27440_1, 7955_ENSDARP00000003958]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+LCA[3702_AT3G27440_1, 237895_Chro_80328]: [Speciations = 25, Duplications = 0, Transfers = 75], [Most Frequent mapping --> 237895, 46 times], [Most Frequent recipient --> n17, 75 times].
+LCA[4932_YNR012W, 237895_Chro_80328]: [Speciations = 66, Duplications = 25, Transfers = 9], [Most Frequent mapping --> n15, 91 times], [Most Frequent recipient --> 237895, 9 times].
+LCA[262724_TTC0210, 237895_Chro_80328]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n15, 34 times], [Most Frequent recipient --> n15, 57 times].
+LCA[224326_BB0015, 237895_Chro_80328]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224326, 27 times], [Most Frequent recipient --> n29, 26 times].
+LCA[198214_SF2130, 83333_b2066]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[209261_t0750, 83333_b2066]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].
+LCA[209261_t0750, 187410_y2646]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].
+LCA[209261_t0750, 71421_HI0132]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n70, 100 times].
+LCA[243277_VC1038, 74109_PBPRA1170]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[209261_t0750, 74109_PBPRA1170]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n68, 100 times].
+LCA[209261_t0750, 211586_SO2617]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n67, 100 times].
+LCA[209261_t0750, 227377_CBU0872]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n63, 100 times].
+LCA[224326_BB0015, 227377_CBU0872]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n63, 47 times], [Most Frequent recipient --> n63, 53 times].
+LCA[4932_YNL129W, 227377_CBU0872]: [Speciations = 1, Duplications = 4, Transfers = 95], [Most Frequent mapping --> n18, 75 times], [Most Frequent recipient --> n63, 47 times].
+LCA[3702_AT1G73980_1, 227377_CBU0872]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+LCA[242619_PG1745, 226186_BT2527]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n90, 100 times].
+LCA[212717_CTC00344, 226186_BT2527]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 100 times], [Most Frequent recipient --> n90, 100 times].
+LCA[212717_CTC00344, 243274_TM0751]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 100 times], [Most Frequent recipient --> 243274, 100 times].
+LCA[273068_TTE1778, 243274_TM0751]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n26, 100 times].
+LCA[273068_TTE1778, 243276_TP0667]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n26, 100 times], [Most Frequent recipient --> 243276, 100 times].
+LCA[273068_TTE1778, 262768_PAM142]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n25, 100 times].
+LCA[273068_TTE1778, 184922_8217]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 184922, 100 times], [Most Frequent recipient --> n25, 100 times].
+LCA[184922_16549, 184922_8217]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 184922, 100 times].
+LCA[3702_AT1G73980_1, 184922_8217]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n14, 100 times].
+LCA[3702_AT1G73980_1, 84588_SYNW1344]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n85, 38 times], [Most Frequent recipient --> n14, 100 times].
+LCA[103690_alr2350, 251221_glr4424]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 103690, 54 times], [Most Frequent recipient --> 251221, 100 times].
+LCA[3702_AT1G73980_1, 251221_glr4424]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n83, 100 times].
+LCA[251221_gll2122, 251221_glr4424]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[251221_glr2296, 251221_glr4424]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n82, 100 times].

@@ -1,0 +1,57 @@
+Input file: ../raw-data/original_seqs/COG2876/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((((((13773_PAE1932,((262724_TTC0448,272557_APE0581),(273075_Ta0247,2287_SSO0304))),((243164_DET0468,((242619_PG0885,226186_BT3934),(115711_CP0270,272561_CT382))),(186497_PF1690,((243230_DR1001,262724_TTC0020),(93061_SAOUHSC_01852,(272626_lin1641,((224308_BSU29750,260799_BAS2748),221109_OB2227))))))),251221_glr0193),((204669_Acid345_1883,243164_DET1486),(190304_FN1562,243274_TM0343))),((((117_RB7096,234267_400039290),234267_400050150),204669_Acid345_3110),(((74109_PBPRA2485,959_Bd3486),(212717_CTC01618,273068_TTE1576)),((((103690_all0408,103690_all0747),251221_glr1741),243231_GSU3142),243231_GSU3333)))),((226185_EF1562,220668_lp_1085),273068_TTE1013));
+
+
+The minimum reconciliation cost is: 54
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[262724_TTC0448, 272557_APE0581]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272557, 100 times], [Most Frequent recipient --> 262724, 100 times].
+LCA[273075_Ta0247, 2287_SSO0304]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 2287, 100 times], [Most Frequent recipient --> 273075, 100 times].
+LCA[262724_TTC0448, 2287_SSO0304]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n13, 100 times].
+LCA[13773_PAE1932, 2287_SSO0304]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n12, 100 times].
+LCA[242619_PG0885, 226186_BT3934]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n90, 100 times].
+LCA[115711_CP0270, 272561_CT382]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n91, 100 times].
+LCA[242619_PG0885, 272561_CT382]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n88, 100 times].
+LCA[243164_DET0468, 272561_CT382]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243164, 100 times], [Most Frequent recipient --> n88, 100 times].
+LCA[243230_DR1001, 262724_TTC0020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n81, 100 times].
+LCA[224308_BSU29750, 260799_BAS2748]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].
+LCA[224308_BSU29750, 221109_OB2227]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n33, 100 times].
+LCA[272626_lin1641, 221109_OB2227]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[93061_SAOUHSC_01852, 221109_OB2227]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+LCA[243230_DR1001, 221109_OB2227]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n81, 100 times], [Most Frequent recipient --> n31, 100 times].
+LCA[186497_PF1690, 221109_OB2227]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n81, 100 times], [Most Frequent recipient --> 186497, 100 times].
+LCA[243164_DET0468, 221109_OB2227]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n80, 100 times].
+LCA[13773_PAE1932, 221109_OB2227]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n80, 100 times], [Most Frequent recipient --> n12, 100 times].
+LCA[13773_PAE1932, 251221_glr0193]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n79, 100 times].
+LCA[204669_Acid345_1883, 243164_DET1486]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243164, 59 times], [Most Frequent recipient --> 204669, 59 times].
+LCA[190304_FN1562, 243274_TM0343]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n77, 100 times].
+LCA[204669_Acid345_1883, 243274_TM0343]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n77, 100 times], [Most Frequent recipient --> 243164, 59 times].
+LCA[13773_PAE1932, 243274_TM0343]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n76, 100 times].
+LCA[117_RB7096, 234267_400039290]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 234267, 100 times], [Most Frequent recipient --> 117, 100 times].
+LCA[117_RB7096, 234267_400050150]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 234267, 100 times].
+LCA[117_RB7096, 204669_Acid345_3110]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[74109_PBPRA2485, 959_Bd3486]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 959, 100 times], [Most Frequent recipient --> 74109, 100 times].
+LCA[212717_CTC01618, 273068_TTE1576]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n26, 100 times].
+LCA[74109_PBPRA2485, 273068_TTE1576]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 959, 100 times], [Most Frequent recipient --> n26, 100 times].
+LCA[103690_all0408, 103690_all0747]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 103690, 100 times].
+LCA[103690_all0408, 251221_glr1741]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[103690_all0408, 243231_GSU3142]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243231, 100 times], [Most Frequent recipient --> n82, 100 times].
+LCA[103690_all0408, 243231_GSU3333]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 243231, 100 times].
+LCA[74109_PBPRA2485, 243231_GSU3333]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n43, 100 times].
+LCA[117_RB7096, 243231_GSU3333]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[13773_PAE1932, 243231_GSU3333]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n39, 100 times].
+LCA[226185_EF1562, 220668_lp_1085]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n35, 100 times].
+LCA[226185_EF1562, 273068_TTE1013]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n25, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[13773_PAE1932, 273068_TTE1013]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n24, 100 times].

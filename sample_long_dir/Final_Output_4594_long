@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG4594/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224308_BSU10330,((83333_b4290,(93061_SAOUHSC_00976,93061_SAOUHSC_02430)),224308_BSU07520));
+((83333_b4290,(93061_SAOUHSC_00976,93061_SAOUHSC_02430)),(224308_BSU07520,224308_BSU10330));
+(83333_b4290,((93061_SAOUHSC_00976,93061_SAOUHSC_02430),(224308_BSU07520,224308_BSU10330)));
+(((224308_BSU07520,224308_BSU10330),83333_b4290),(93061_SAOUHSC_00976,93061_SAOUHSC_02430));
+(93061_SAOUHSC_00976,(93061_SAOUHSC_02430,((224308_BSU07520,224308_BSU10330),83333_b4290)));
+((((224308_BSU07520,224308_BSU10330),83333_b4290),93061_SAOUHSC_00976),93061_SAOUHSC_02430);
+((224308_BSU10330,(83333_b4290,(93061_SAOUHSC_00976,93061_SAOUHSC_02430))),224308_BSU07520);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224308_BSU07520, 93061_SAOUHSC_02430]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 93061, 100 times].
+LCA[224308_BSU07520, 93061_SAOUHSC_02430]: [Speciations = 42, Duplications = 0, Transfers = 58], [Most Frequent mapping --> n31, 42 times], [Most Frequent recipient --> 93061, 30 times].
+LCA[224308_BSU10330, 224308_BSU07520]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224308, 100 times].
+LCA[224308_BSU10330, 224308_BSU07520]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224308, 100 times].
+LCA[83333_b4290, 224308_BSU10330]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83333, 52 times], [Most Frequent recipient --> 83333, 48 times].
+LCA[83333_b4290, 224308_BSU10330]: [Speciations = 23, Duplications = 0, Transfers = 77], [Most Frequent mapping --> 224308, 43 times], [Most Frequent recipient --> 224308, 34 times].
+LCA[93061_SAOUHSC_00976, 83333_b4290]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 93061, 100 times].

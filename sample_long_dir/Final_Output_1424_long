@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG1424/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(93061_SAOUHSC_02712,(224308_BSU30240,(224324_AQ_1659,243232_MJ1297)));
+(224308_BSU30240,((224324_AQ_1659,243232_MJ1297),93061_SAOUHSC_02712));
+((93061_SAOUHSC_02712,224308_BSU30240),(224324_AQ_1659,243232_MJ1297));
+(224324_AQ_1659,(243232_MJ1297,(93061_SAOUHSC_02712,224308_BSU30240)));
+(((93061_SAOUHSC_02712,224308_BSU30240),224324_AQ_1659),243232_MJ1297);
+
+
+The minimum reconciliation cost is: 9
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224308_BSU30240, 93061_SAOUHSC_02712]: [Speciations = 16, Duplications = 0, Transfers = 84], [Most Frequent mapping --> 224308, 45 times], [Most Frequent recipient --> 224308, 39 times].
+LCA[224324_AQ_1659, 224308_BSU30240]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224324, 50 times], [Most Frequent recipient --> 224324, 50 times].
+LCA[93061_SAOUHSC_02712, 243232_MJ1297]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224324, 27 times], [Most Frequent recipient --> 224324, 26 times].
+LCA[93061_SAOUHSC_02712, 243232_MJ1297]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243232, 42 times], [Most Frequent recipient --> 243232, 58 times].
+LCA[93061_SAOUHSC_02712, 243232_MJ1297]: [Speciations = 54, Duplications = 0, Transfers = 46], [Most Frequent mapping --> n31, 54 times], [Most Frequent recipient --> 93061, 24 times].

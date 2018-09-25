@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG2226/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((266834_RB0431,188937_MA2333),(251221_glr2042,4932_YML110C));
+(266834_RB0431,(188937_MA2333,(251221_glr2042,4932_YML110C)));
+(((251221_glr2042,4932_YML110C),266834_RB0431),188937_MA2333);
+(251221_glr2042,(4932_YML110C,(266834_RB0431,188937_MA2333)));
+(((266834_RB0431,188937_MA2333),251221_glr2042),4932_YML110C);
+
+
+The minimum reconciliation cost is: 9
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[251221_glr2042, 188937_MA2333]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 188937, 44 times], [Most Frequent recipient --> 188937, 56 times].
+LCA[251221_glr2042, 188937_MA2333]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 251221, 49 times], [Most Frequent recipient --> 251221, 51 times].
+LCA[266834_RB0431, 4932_YML110C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266834, 48 times], [Most Frequent recipient --> 266834, 52 times].
+LCA[266834_RB0431, 4932_YML110C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 4932, 32 times], [Most Frequent recipient --> 251221, 33 times].
+LCA[266834_RB0431, 4932_YML110C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 4932, 45 times], [Most Frequent recipient --> 4932, 55 times].

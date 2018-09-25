@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG5558/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((224325_AF2092,(224325_AF2222,(224325_AF0858,224325_AF0279))),(224325_AF0642,224325_AF0306));
+(224325_AF2092,((224325_AF2222,(224325_AF0858,224325_AF0279)),(224325_AF0642,224325_AF0306)));
+(((224325_AF0642,224325_AF0306),224325_AF2092),(224325_AF2222,(224325_AF0858,224325_AF0279)));
+(224325_AF2222,((224325_AF0858,224325_AF0279),((224325_AF0642,224325_AF0306),224325_AF2092)));
+((((224325_AF0642,224325_AF0306),224325_AF2092),224325_AF2222),(224325_AF0858,224325_AF0279));
+(224325_AF0858,(224325_AF0279,(((224325_AF0642,224325_AF0306),224325_AF2092),224325_AF2222)));
+(((((224325_AF0642,224325_AF0306),224325_AF2092),224325_AF2222),224325_AF0858),224325_AF0279);
+(224325_AF0642,(224325_AF0306,(224325_AF2092,(224325_AF2222,(224325_AF0858,224325_AF0279)))));
+(((224325_AF2092,(224325_AF2222,(224325_AF0858,224325_AF0279))),224325_AF0642),224325_AF0306);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224325_AF0642, 224325_AF0279]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0642, 224325_AF0279]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0642, 224325_AF0279]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0642, 224325_AF0279]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF0858, 224325_AF2222]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF2092, 224325_AF0306]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF2092, 224325_AF0306]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF2092, 224325_AF0306]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].
+LCA[224325_AF2222, 224325_AF2092]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224325, 100 times].

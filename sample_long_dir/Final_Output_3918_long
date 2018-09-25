@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG3918/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(176299_AGR_pAT_804,(266835_mlr2767,(83331_MT2180,(234267_400035310,(204669_Acid345_4635,190485_XCC3892)))));
+(266835_mlr2767,((83331_MT2180,(234267_400035310,(204669_Acid345_4635,190485_XCC3892))),176299_AGR_pAT_804));
+((176299_AGR_pAT_804,266835_mlr2767),(83331_MT2180,(234267_400035310,(204669_Acid345_4635,190485_XCC3892))));
+(83331_MT2180,((234267_400035310,(204669_Acid345_4635,190485_XCC3892)),(176299_AGR_pAT_804,266835_mlr2767)));
+(((176299_AGR_pAT_804,266835_mlr2767),83331_MT2180),(234267_400035310,(204669_Acid345_4635,190485_XCC3892)));
+(234267_400035310,((204669_Acid345_4635,190485_XCC3892),((176299_AGR_pAT_804,266835_mlr2767),83331_MT2180)));
+((((176299_AGR_pAT_804,266835_mlr2767),83331_MT2180),234267_400035310),(204669_Acid345_4635,190485_XCC3892));
+(204669_Acid345_4635,(190485_XCC3892,(((176299_AGR_pAT_804,266835_mlr2767),83331_MT2180),234267_400035310)));
+(((((176299_AGR_pAT_804,266835_mlr2767),83331_MT2180),234267_400035310),204669_Acid345_4635),190485_XCC3892);
+
+
+The minimum reconciliation cost is: 11
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[176299_AGR_pAT_804, 190485_XCC3892]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n44, 52 times], [Most Frequent recipient --> 190485, 52 times].
+LCA[176299_AGR_pAT_804, 190485_XCC3892]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n44, 52 times], [Most Frequent recipient --> n44, 48 times].
+LCA[176299_AGR_pAT_804, 190485_XCC3892]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n55, 47 times], [Most Frequent recipient --> n55, 53 times].
+LCA[176299_AGR_pAT_804, 190485_XCC3892]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[176299_AGR_pAT_804, 190485_XCC3892]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[204669_Acid345_4635, 234267_400035310]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[234267_400035310, 83331_MT2180]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n44, 100 times].
+LCA[266835_mlr2767, 176299_AGR_pAT_804]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[83331_MT2180, 266835_mlr2767]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 44 times], [Most Frequent recipient --> 83331, 56 times].

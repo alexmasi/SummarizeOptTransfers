@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG5519/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(188937_MA2235,(188937_MA4137,((243365_CV3857,234267_400067320),188937_MA1895)));
+(188937_MA4137,(((243365_CV3857,234267_400067320),188937_MA1895),188937_MA2235));
+((188937_MA2235,188937_MA4137),((243365_CV3857,234267_400067320),188937_MA1895));
+((243365_CV3857,234267_400067320),(188937_MA1895,(188937_MA2235,188937_MA4137)));
+(243365_CV3857,(234267_400067320,(188937_MA1895,(188937_MA2235,188937_MA4137))));
+(((188937_MA1895,(188937_MA2235,188937_MA4137)),243365_CV3857),234267_400067320);
+(((188937_MA2235,188937_MA4137),(243365_CV3857,234267_400067320)),188937_MA1895);
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[188937_MA1895, 234267_400067320]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 234267, 48 times], [Most Frequent recipient --> 234267, 52 times].
+LCA[188937_MA2235, 188937_MA1895]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 188937, 100 times].
+LCA[188937_MA2235, 188937_MA1895]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 188937, 100 times].
+LCA[188937_MA2235, 188937_MA1895]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 188937, 100 times].
+LCA[188937_MA4137, 188937_MA2235]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 188937, 100 times].
+LCA[243365_CV3857, 188937_MA4137]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 188937, 48 times], [Most Frequent recipient --> 188937, 52 times].
+LCA[243365_CV3857, 188937_MA4137]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 61 times], [Most Frequent recipient --> 243365, 39 times].

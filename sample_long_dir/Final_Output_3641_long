@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG3641/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(212717_CTC01841,((226185_EF1657,226185_EF0516),(((93061_SAOUHSC_02888,243276_TP0038),93061_SAOUHSC_01992),(190304_FN1900,(((221109_OB0841,220668_lp_2954),260799_BAS4867),272626_lin2249)))));
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[226185_EF1657, 226185_EF0516]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 226185, 100 times].
+LCA[93061_SAOUHSC_02888, 243276_TP0038]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 93061, 100 times], [Most Frequent recipient --> 243276, 100 times].
+LCA[93061_SAOUHSC_02888, 93061_SAOUHSC_01992]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 93061, 100 times].
+LCA[221109_OB0841, 220668_lp_2954]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 100 times], [Most Frequent recipient --> 220668, 100 times].
+LCA[221109_OB0841, 260799_BAS4867]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n33, 100 times].
+LCA[221109_OB0841, 272626_lin2249]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[190304_FN1900, 272626_lin2249]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n32, 100 times], [Most Frequent recipient --> 190304, 100 times].
+LCA[93061_SAOUHSC_02888, 272626_lin2249]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+LCA[226185_EF1657, 272626_lin2249]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n30, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[212717_CTC01841, 272626_lin2249]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n25, 100 times].

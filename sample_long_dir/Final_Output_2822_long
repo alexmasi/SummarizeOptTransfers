@@ -1,0 +1,54 @@
+Input file: ../raw-data/original_seqs/COG2822/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((224308_BSU38270,272626_lin0385),(100226_SCO2275,93061_SAOUHSC_00325)),((187410_y2451,(83333_b1018,198214_SF1020)),122586_NMB0035));
+((224308_BSU38270,272626_lin0385),((100226_SCO2275,93061_SAOUHSC_00325),((187410_y2451,(83333_b1018,198214_SF1020)),122586_NMB0035)));
+((((187410_y2451,(83333_b1018,198214_SF1020)),122586_NMB0035),(224308_BSU38270,272626_lin0385)),(100226_SCO2275,93061_SAOUHSC_00325));
+(100226_SCO2275,(93061_SAOUHSC_00325,(((187410_y2451,(83333_b1018,198214_SF1020)),122586_NMB0035),(224308_BSU38270,272626_lin0385))));
+(((((187410_y2451,(83333_b1018,198214_SF1020)),122586_NMB0035),(224308_BSU38270,272626_lin0385)),100226_SCO2275),93061_SAOUHSC_00325);
+((187410_y2451,(83333_b1018,198214_SF1020)),(122586_NMB0035,((224308_BSU38270,272626_lin0385),(100226_SCO2275,93061_SAOUHSC_00325))));
+(187410_y2451,((83333_b1018,198214_SF1020),(122586_NMB0035,((224308_BSU38270,272626_lin0385),(100226_SCO2275,93061_SAOUHSC_00325)))));
+(((122586_NMB0035,((224308_BSU38270,272626_lin0385),(100226_SCO2275,93061_SAOUHSC_00325))),187410_y2451),(83333_b1018,198214_SF1020));
+((((224308_BSU38270,272626_lin0385),(100226_SCO2275,93061_SAOUHSC_00325)),(187410_y2451,(83333_b1018,198214_SF1020))),122586_NMB0035);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[224308_BSU38270, 272626_lin0385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[83333_b1018, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO2275, 272626_lin0385]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 51 times], [Most Frequent recipient --> n31, 51 times].
+LCA[122586_NMB0035, 198214_SF1020]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].
+LCA[187410_y2451, 93061_SAOUHSC_00325]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n72, 59 times], [Most Frequent recipient --> n72, 41 times].
+LCA[187410_y2451, 93061_SAOUHSC_00325]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+LCA[187410_y2451, 93061_SAOUHSC_00325]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+LCA[187410_y2451, 93061_SAOUHSC_00325]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].
+LCA[224308_BSU38270, 122586_NMB0035]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 122586, 59 times], [Most Frequent recipient --> 122586, 41 times].
+LCA[224308_BSU38270, 122586_NMB0035]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n31, 47 times], [Most Frequent recipient --> n31, 53 times].
+LCA[224308_BSU38270, 122586_NMB0035]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].

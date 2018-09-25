@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG3250/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((((160492_Xf0846,190485_XCC2891),((7955_ENSDARP00000018290,7227_CG12582_PA),(100226_SCO6232,243274_TM1624))),(3702_AT1G09010_1,(226186_BT3599,226186_BT2855))),((3702_AT3G54440_2,((226186_BT4684,190485_XCC4116),((226186_BT2680,226186_BT4181),226186_BT4050))),(((10090_ENSMUSP00000026613,(9598_ENSPTRP00000032885,(9606_ENSP00000302728,9606_ENSP00000344495))),7955_ENSDARP00000063999),(7227_CG2135_PA,7227_CG15117_PB))));
+
+
+The minimum reconciliation cost is: 37
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[160492_Xf0846, 190485_XCC2891]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n65, 100 times].
+LCA[7955_ENSDARP00000018290, 7227_CG12582_PA]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[100226_SCO6232, 243274_TM1624]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 55 times], [Most Frequent recipient --> 243274, 55 times].
+LCA[7955_ENSDARP00000018290, 243274_TM1624]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n20, 56 times], [Most Frequent recipient --> 100226, 55 times].
+LCA[160492_Xf0846, 243274_TM1624]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n18, 40 times], [Most Frequent recipient --> n65, 100 times].
+LCA[226186_BT3599, 226186_BT2855]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 226186, 100 times].
+LCA[3702_AT1G09010_1, 226186_BT2855]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 3702, 100 times], [Most Frequent recipient --> 226186, 100 times].
+LCA[160492_Xf0846, 226186_BT2855]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+LCA[226186_BT4684, 190485_XCC4116]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226186, 100 times], [Most Frequent recipient --> 190485, 100 times].
+LCA[226186_BT2680, 226186_BT4181]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 226186, 100 times].
+LCA[226186_BT2680, 226186_BT4050]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 226186, 100 times].
+LCA[226186_BT4684, 226186_BT4050]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 226186, 100 times].
+LCA[3702_AT3G54440_2, 226186_BT4050]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 3702, 100 times], [Most Frequent recipient --> 226186, 100 times].
+LCA[9606_ENSP00000302728, 9606_ENSP00000344495]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 9606, 100 times].
+LCA[9598_ENSPTRP00000032885, 9606_ENSP00000344495]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n23, 100 times].
+LCA[10090_ENSMUSP00000026613, 9606_ENSP00000344495]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[10090_ENSMUSP00000026613, 7955_ENSDARP00000063999]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n21, 100 times].
+LCA[7227_CG2135_PA, 7227_CG15117_PB]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 7227, 100 times].
+LCA[10090_ENSMUSP00000026613, 7227_CG15117_PB]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[3702_AT3G54440_2, 7227_CG15117_PB]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[160492_Xf0846, 7227_CG15117_PB]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> n17, 100 times].

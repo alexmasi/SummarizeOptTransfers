@@ -1,0 +1,57 @@
+Input file: ../raw-data/original_seqs/COG1132/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((251221_glr2720,103690_all2622),(((85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1)),(237895_Chro_30090,262768_PAM059)),243230_DR0095));
+(((85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1)),(237895_Chro_30090,262768_PAM059)),(243230_DR0095,(251221_glr2720,103690_all2622)));
+((85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1)),((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622))));
+(85962_HP0600,(((6239_Y43F8C_12,100226_SCO5450),5833_MDR1),((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622)))));
+((((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622))),85962_HP0600),((6239_Y43F8C_12,100226_SCO5450),5833_MDR1));
+((6239_Y43F8C_12,100226_SCO5450),(5833_MDR1,(((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622))),85962_HP0600)));
+(6239_Y43F8C_12,(100226_SCO5450,(5833_MDR1,(((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622))),85962_HP0600))));
+(((5833_MDR1,(((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622))),85962_HP0600)),6239_Y43F8C_12),100226_SCO5450);
+(((((237895_Chro_30090,262768_PAM059),(243230_DR0095,(251221_glr2720,103690_all2622))),85962_HP0600),(6239_Y43F8C_12,100226_SCO5450)),5833_MDR1);
+(((243230_DR0095,(251221_glr2720,103690_all2622)),(85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1))),(237895_Chro_30090,262768_PAM059));
+(237895_Chro_30090,(262768_PAM059,((243230_DR0095,(251221_glr2720,103690_all2622)),(85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1)))));
+((((243230_DR0095,(251221_glr2720,103690_all2622)),(85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1))),237895_Chro_30090),262768_PAM059);
+(((251221_glr2720,103690_all2622),((85962_HP0600,((6239_Y43F8C_12,100226_SCO5450),5833_MDR1)),(237895_Chro_30090,262768_PAM059))),243230_DR0095);
+
+
+The minimum reconciliation cost is: 19
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_glr2720, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[237895_Chro_30090, 5833_MDR1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].
+LCA[237895_Chro_30090, 5833_MDR1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].
+LCA[237895_Chro_30090, 5833_MDR1]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].
+LCA[243230_DR0095, 262768_PAM059]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n16, 54 times], [Most Frequent recipient --> 262768, 54 times].
+LCA[243230_DR0095, 262768_PAM059]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].
+LCA[251221_glr2720, 243230_DR0095]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n79, 100 times].
+LCA[251221_glr2720, 243230_DR0095]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n79, 100 times].
+LCA[5833_MDR1, 100226_SCO5450]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 53 times], [Most Frequent recipient --> 100226, 47 times].
+LCA[6239_Y43F8C_12, 85962_HP0600]: [Speciations = 19, Duplications = 0, Transfers = 81], [Most Frequent mapping --> 6239, 45 times], [Most Frequent recipient --> 6239, 36 times].
+LCA[6239_Y43F8C_12, 85962_HP0600]: [Speciations = 54, Duplications = 0, Transfers = 46], [Most Frequent mapping --> n15, 54 times], [Most Frequent recipient --> n16, 27 times].
+LCA[85962_HP0600, 103690_all2622]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 85962, 56 times], [Most Frequent recipient --> n16, 56 times].
+LCA[85962_HP0600, 103690_all2622]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n16, 54 times], [Most Frequent recipient --> n79, 54 times].
+LCA[85962_HP0600, 103690_all2622]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n16, 100 times].

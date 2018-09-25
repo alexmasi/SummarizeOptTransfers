@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG0577/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224911_bll1001,((243274_TM0706,(100226_SCO3754,(((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222))),211586_SO0856));
+((243274_TM0706,(100226_SCO3754,(((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222))),(211586_SO0856,224911_bll1001));
+(243274_TM0706,((100226_SCO3754,(((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222)),(211586_SO0856,224911_bll1001)));
+(((211586_SO0856,224911_bll1001),243274_TM0706),(100226_SCO3754,(((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222)));
+(100226_SCO3754,((((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222),((211586_SO0856,224911_bll1001),243274_TM0706)));
+((((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754),(((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222));
+(((212717_ctp25,224308_BSU34690),959_Bd3817),(194439_CT1222,(((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754)));
+((212717_ctp25,224308_BSU34690),(959_Bd3817,(194439_CT1222,(((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754))));
+(212717_ctp25,(224308_BSU34690,(959_Bd3817,(194439_CT1222,(((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754)))));
+(((959_Bd3817,(194439_CT1222,(((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754))),212717_ctp25),224308_BSU34690);
+(((194439_CT1222,(((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754)),(212717_ctp25,224308_BSU34690)),959_Bd3817);
+(((((211586_SO0856,224911_bll1001),243274_TM0706),100226_SCO3754),((212717_ctp25,224308_BSU34690),959_Bd3817)),194439_CT1222);
+((224911_bll1001,(243274_TM0706,(100226_SCO3754,(((212717_ctp25,224308_BSU34690),959_Bd3817),194439_CT1222)))),211586_SO0856);
+
+
+The minimum reconciliation cost is: 21
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO3754, 243274_TM0706]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 45 times], [Most Frequent recipient --> 100226, 55 times].
+LCA[194439_CT1222, 959_Bd3817]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 959, 56 times], [Most Frequent recipient --> 959, 44 times].
+LCA[211586_SO0856, 194439_CT1222]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 28 times], [Most Frequent recipient --> 243274, 26 times].
+LCA[211586_SO0856, 194439_CT1222]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 31 times], [Most Frequent recipient --> 100226, 27 times].
+LCA[211586_SO0856, 194439_CT1222]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 53 times], [Most Frequent recipient --> 194439, 47 times].
+LCA[212717_ctp25, 100226_SCO3754]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 25 times], [Most Frequent recipient --> 959, 30 times].
+LCA[212717_ctp25, 100226_SCO3754]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 57 times], [Most Frequent recipient --> 212717, 43 times].
+LCA[212717_ctp25, 100226_SCO3754]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224308, 26 times], [Most Frequent recipient --> 212717, 29 times].
+LCA[224911_bll1001, 211586_SO0856]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 211586, 61 times], [Most Frequent recipient --> 211586, 39 times].
+LCA[224911_bll1001, 211586_SO0856]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224911, 49 times], [Most Frequent recipient --> 224911, 51 times].
+LCA[243274_TM0706, 224911_bll1001]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 29 times], [Most Frequent recipient --> 224911, 37 times].
+LCA[243274_TM0706, 224911_bll1001]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 45 times], [Most Frequent recipient --> 243274, 55 times].
+LCA[959_Bd3817, 224308_BSU34690]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224308, 56 times], [Most Frequent recipient --> 224308, 44 times].

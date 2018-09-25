@@ -1,0 +1,42 @@
+Input file: ../raw-data/original_seqs/COG4724/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((206672_BL1335,220668_lp_0182),(272623_LL1492,(((3702_AT5G05460_1,3702_AT3G11040_1),(7227_CG5613_PA,(10090_ENSMUSP00000048272,9606_ENSP00000300682))),170187_SP0498)));
+(206672_BL1335,(220668_lp_0182,(272623_LL1492,(((3702_AT5G05460_1,3702_AT3G11040_1),(7227_CG5613_PA,(10090_ENSMUSP00000048272,9606_ENSP00000300682))),170187_SP0498))));
+(((272623_LL1492,(((3702_AT5G05460_1,3702_AT3G11040_1),(7227_CG5613_PA,(10090_ENSMUSP00000048272,9606_ENSP00000300682))),170187_SP0498)),206672_BL1335),220668_lp_0182);
+
+
+The minimum reconciliation cost is: 13
+The total number of optimal rootings is: 3
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[3702_AT5G05460_1, 3702_AT3G11040_1]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[3702_AT5G05460_1, 3702_AT3G11040_1]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[3702_AT5G05460_1, 3702_AT3G11040_1]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 3702, 100 times].
+LCA[10090_ENSMUSP00000048272, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[10090_ENSMUSP00000048272, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[10090_ENSMUSP00000048272, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n22, 100 times].
+LCA[7227_CG5613_PA, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[7227_CG5613_PA, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[7227_CG5613_PA, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n20, 100 times].
+LCA[3702_AT5G05460_1, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+LCA[3702_AT5G05460_1, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+LCA[3702_AT5G05460_1, 9606_ENSP00000300682]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n17, 100 times].
+LCA[3702_AT5G05460_1, 170187_SP0498]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 100 times], [Most Frequent recipient --> n17, 100 times].
+LCA[3702_AT5G05460_1, 170187_SP0498]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 100 times], [Most Frequent recipient --> n17, 100 times].
+LCA[3702_AT5G05460_1, 170187_SP0498]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 100 times], [Most Frequent recipient --> n17, 100 times].
+LCA[272623_LL1492, 170187_SP0498]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+LCA[272623_LL1492, 170187_SP0498]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+LCA[272623_LL1492, 170187_SP0498]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[206672_BL1335, 170187_SP0498]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 206672, 51 times], [Most Frequent recipient --> n35, 51 times].
+LCA[206672_BL1335, 170187_SP0498]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n35, 100 times].
+LCA[272623_LL1492, 220668_lp_0182]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n35, 100 times].

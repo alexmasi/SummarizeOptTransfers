@@ -1,0 +1,31 @@
+Input file: ../raw-data/original_seqs/COG4778/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((266835_mlr3349,((243365_CV1841,103690_all2217),(((221109_OB0974,208964_PA3375),(83333_b4096,187410_y0723)),(266835_mll9150,266835_mlr9286)))),(176299_AGR_C_293,266834_RB1456)),(224911_blr1226,258594_RPA0690));
+
+
+The minimum reconciliation cost is: 22
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[243365_CV1841, 103690_all2217]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 54 times], [Most Frequent recipient --> 103690, 54 times].
+LCA[221109_OB0974, 208964_PA3375]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 53 times], [Most Frequent recipient --> 208964, 53 times].
+LCA[83333_b4096, 187410_y0723]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].
+LCA[221109_OB0974, 187410_y0723]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n72, 42 times], [Most Frequent recipient --> n72, 58 times].
+LCA[266835_mll9150, 266835_mlr9286]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 266835, 100 times].
+LCA[221109_OB0974, 266835_mlr9286]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 100 times], [Most Frequent recipient --> n72, 42 times].
+LCA[243365_CV1841, 266835_mlr9286]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 100 times], [Most Frequent recipient --> 243365, 54 times].
+LCA[266835_mlr3349, 266835_mlr9286]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 266835, 100 times].
+LCA[176299_AGR_C_293, 266834_RB1456]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n57, 100 times].
+LCA[266835_mlr3349, 266834_RB1456]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[224911_blr1226, 258594_RPA0690]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n54, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[266835_mlr3349, 258594_RPA0690]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].

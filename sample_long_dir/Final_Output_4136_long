@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG4136/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(74109_PBPRA2116,((266834_R00068,(83333_b1756,198214_SF1466_2)),243277_VC1666));
+((266834_R00068,(83333_b1756,198214_SF1466_2)),(243277_VC1666,74109_PBPRA2116));
+(266834_R00068,((83333_b1756,198214_SF1466_2),(243277_VC1666,74109_PBPRA2116)));
+(((243277_VC1666,74109_PBPRA2116),266834_R00068),(83333_b1756,198214_SF1466_2));
+(83333_b1756,(198214_SF1466_2,((243277_VC1666,74109_PBPRA2116),266834_R00068)));
+((((243277_VC1666,74109_PBPRA2116),266834_R00068),83333_b1756),198214_SF1466_2);
+((74109_PBPRA2116,(266834_R00068,(83333_b1756,198214_SF1466_2))),243277_VC1666);
+
+
+The minimum reconciliation cost is: 6
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[243277_VC1666, 198214_SF1466_2]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n74, 44 times], [Most Frequent recipient --> n74, 56 times].
+LCA[243277_VC1666, 198214_SF1466_2]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].
+LCA[266834_R00068, 74109_PBPRA2116]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266834, 42 times], [Most Frequent recipient --> 266834, 58 times].
+LCA[266834_R00068, 74109_PBPRA2116]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n69, 59 times], [Most Frequent recipient --> n69, 41 times].
+LCA[74109_PBPRA2116, 243277_VC1666]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[74109_PBPRA2116, 243277_VC1666]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[83333_b1756, 266834_R00068]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n74, 100 times].

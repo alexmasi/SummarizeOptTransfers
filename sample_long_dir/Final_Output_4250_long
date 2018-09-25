@@ -1,0 +1,24 @@
+Input file: ../raw-data/original_seqs/COG4250/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(251221_gll3192,((103690_all0330,269084_syc1818_d),103690_all4304));
+((103690_all0330,269084_syc1818_d),(103690_all4304,251221_gll3192));
+
+
+The minimum reconciliation cost is: 4
+The total number of optimal rootings is: 2
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[103690_all0330, 269084_syc1818_d]: [Speciations = 49, Duplications = 0, Transfers = 51], [Most Frequent mapping --> 269084, 51 times], [Most Frequent recipient --> 103690, 51 times].
+LCA[103690_all0330, 269084_syc1818_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[103690_all0330, 251221_gll3192]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[251221_gll3192, 103690_all4304]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].

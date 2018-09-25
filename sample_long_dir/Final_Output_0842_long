@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG0842/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(103690_all7196,(267608_RSp1015,(((234267_400054150,186497_PF0036),(243164_DET0114,(224911_blr6191,266834_RB0185))),273075_Ta0642)));
+(267608_RSp1015,((((234267_400054150,186497_PF0036),(243164_DET0114,(224911_blr6191,266834_RB0185))),273075_Ta0642),103690_all7196));
+((103690_all7196,267608_RSp1015),(((234267_400054150,186497_PF0036),(243164_DET0114,(224911_blr6191,266834_RB0185))),273075_Ta0642));
+(((234267_400054150,186497_PF0036),(243164_DET0114,(224911_blr6191,266834_RB0185))),(273075_Ta0642,(103690_all7196,267608_RSp1015)));
+((234267_400054150,186497_PF0036),((243164_DET0114,(224911_blr6191,266834_RB0185)),(273075_Ta0642,(103690_all7196,267608_RSp1015))));
+(234267_400054150,(186497_PF0036,((243164_DET0114,(224911_blr6191,266834_RB0185)),(273075_Ta0642,(103690_all7196,267608_RSp1015)))));
+((((243164_DET0114,(224911_blr6191,266834_RB0185)),(273075_Ta0642,(103690_all7196,267608_RSp1015))),234267_400054150),186497_PF0036);
+(((273075_Ta0642,(103690_all7196,267608_RSp1015)),(234267_400054150,186497_PF0036)),(243164_DET0114,(224911_blr6191,266834_RB0185)));
+(243164_DET0114,((224911_blr6191,266834_RB0185),((273075_Ta0642,(103690_all7196,267608_RSp1015)),(234267_400054150,186497_PF0036))));
+((((273075_Ta0642,(103690_all7196,267608_RSp1015)),(234267_400054150,186497_PF0036)),243164_DET0114),(224911_blr6191,266834_RB0185));
+(224911_blr6191,(266834_RB0185,(((273075_Ta0642,(103690_all7196,267608_RSp1015)),(234267_400054150,186497_PF0036)),243164_DET0114)));
+(((((273075_Ta0642,(103690_all7196,267608_RSp1015)),(234267_400054150,186497_PF0036)),243164_DET0114),224911_blr6191),266834_RB0185);
+(((103690_all7196,267608_RSp1015),((234267_400054150,186497_PF0036),(243164_DET0114,(224911_blr6191,266834_RB0185)))),273075_Ta0642);
+
+
+The minimum reconciliation cost is: 20
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[103690_all7196, 273075_Ta0642]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 103690, 52 times], [Most Frequent recipient --> 103690, 48 times].
+LCA[103690_all7196, 273075_Ta0642]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n4, 48 times], [Most Frequent recipient --> n4, 52 times].
+LCA[103690_all7196, 273075_Ta0642]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n4, 100 times].
+LCA[224911_blr6191, 243164_DET0114]: [Speciations = 43, Duplications = 0, Transfers = 57], [Most Frequent mapping --> n53, 43 times], [Most Frequent recipient --> 224911, 30 times].
+LCA[234267_400054150, 267608_RSp1015]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 234267, 50 times], [Most Frequent recipient --> 234267, 50 times].
+LCA[234267_400054150, 267608_RSp1015]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n4, 100 times].
+LCA[234267_400054150, 267608_RSp1015]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n4, 100 times].
+LCA[243164_DET0114, 186497_PF0036]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243164, 52 times], [Most Frequent recipient --> 243164, 48 times].
+LCA[243164_DET0114, 186497_PF0036]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n4, 100 times].
+LCA[267608_RSp1015, 103690_all7196]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 50 times], [Most Frequent recipient --> 267608, 50 times].
+LCA[273075_Ta0642, 266834_RB0185]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n4, 31 times], [Most Frequent recipient --> 243164, 30 times].
+LCA[273075_Ta0642, 266834_RB0185]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n4, 53 times], [Most Frequent recipient --> n4, 47 times].
+LCA[273075_Ta0642, 266834_RB0185]: [Speciations = 35, Duplications = 0, Transfers = 65], [Most Frequent mapping --> n53, 35 times], [Most Frequent recipient --> 266834, 31 times].

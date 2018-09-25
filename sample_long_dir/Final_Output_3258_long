@@ -1,0 +1,29 @@
+Input file: ../raw-data/original_seqs/COG3258/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((267608_RSp1453,192222_Cj0037c),273121_WS0009),((117_RB11269,((208964_PA2481,211586_SO4047),520_BP1579)),((269084_syc1718_d,(258594_RPA2003,208964_PA4571)),235_BAB2_0850)));
+
+
+The minimum reconciliation cost is: 24
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[267608_RSp1453, 192222_Cj0037c]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 192222, 100 times], [Most Frequent recipient --> 267608, 100 times].
+LCA[267608_RSp1453, 273121_WS0009]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n46, 100 times].
+LCA[208964_PA2481, 211586_SO4047]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].
+LCA[208964_PA2481, 520_BP1579]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n58, 100 times].
+LCA[117_RB11269, 520_BP1579]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n58, 100 times], [Most Frequent recipient --> 117, 100 times].
+LCA[258594_RPA2003, 208964_PA4571]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 258594, 62 times], [Most Frequent recipient --> 208964, 100 times].
+LCA[269084_syc1718_d, 208964_PA4571]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n54, 60 times], [Most Frequent recipient --> 269084, 100 times].
+LCA[269084_syc1718_d, 235_BAB2_0850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n53, 100 times].
+LCA[117_RB11269, 235_BAB2_0850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n49, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[267608_RSp1453, 235_BAB2_0850]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n45, 100 times].

@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG0366/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((((243277_VCA0860,187410_y4097),188937_MA1641),251221_gll1595),(243231_GSU2636,194439_CT0755));
+(((243277_VCA0860,187410_y4097),188937_MA1641),(251221_gll1595,(243231_GSU2636,194439_CT0755)));
+((243277_VCA0860,187410_y4097),(188937_MA1641,(251221_gll1595,(243231_GSU2636,194439_CT0755))));
+(243277_VCA0860,(187410_y4097,(188937_MA1641,(251221_gll1595,(243231_GSU2636,194439_CT0755)))));
+(((188937_MA1641,(251221_gll1595,(243231_GSU2636,194439_CT0755))),243277_VCA0860),187410_y4097);
+(((251221_gll1595,(243231_GSU2636,194439_CT0755)),(243277_VCA0860,187410_y4097)),188937_MA1641);
+(((243231_GSU2636,194439_CT0755),((243277_VCA0860,187410_y4097),188937_MA1641)),251221_gll1595);
+(243231_GSU2636,(194439_CT0755,(((243277_VCA0860,187410_y4097),188937_MA1641),251221_gll1595)));
+(((((243277_VCA0860,187410_y4097),188937_MA1641),251221_gll1595),243231_GSU2636),194439_CT0755);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[188937_MA1641, 187410_y4097]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 187410, 55 times], [Most Frequent recipient --> 187410, 45 times].
+LCA[243231_GSU2636, 251221_gll1595]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243231, 54 times], [Most Frequent recipient --> 243231, 46 times].
+LCA[243231_GSU2636, 251221_gll1595]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 251221, 55 times], [Most Frequent recipient --> 251221, 45 times].
+LCA[243277_VCA0860, 194439_CT0755]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 187410, 29 times], [Most Frequent recipient --> 187410, 31 times].
+LCA[243277_VCA0860, 194439_CT0755]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 45 times], [Most Frequent recipient --> 194439, 55 times].
+LCA[243277_VCA0860, 194439_CT0755]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243277, 44 times], [Most Frequent recipient --> 243277, 56 times].
+LCA[243277_VCA0860, 194439_CT0755]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 251221, 28 times], [Most Frequent recipient --> 188937, 29 times].
+LCA[243277_VCA0860, 194439_CT0755]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 251221, 31 times], [Most Frequent recipient --> 243231, 29 times].
+LCA[251221_gll1595, 188937_MA1641]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 188937, 51 times], [Most Frequent recipient --> 188937, 49 times].

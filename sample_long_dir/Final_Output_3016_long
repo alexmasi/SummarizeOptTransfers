@@ -1,0 +1,57 @@
+Input file: ../raw-data/original_seqs/COG3016/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(208964_PA4705,(((189518_LA1008,(243277_VC2004,74109_PBPRA2792)),((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410)),192222_Cj0177));
+(((189518_LA1008,(243277_VC2004,74109_PBPRA2792)),((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410)),(192222_Cj0177,208964_PA4705));
+((189518_LA1008,(243277_VC2004,74109_PBPRA2792)),(((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410),(192222_Cj0177,208964_PA4705)));
+(189518_LA1008,((243277_VC2004,74109_PBPRA2792),(((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410),(192222_Cj0177,208964_PA4705))));
+(((((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410),(192222_Cj0177,208964_PA4705)),189518_LA1008),(243277_VC2004,74109_PBPRA2792));
+(((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792))),((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410));
+((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),(959_Bd2410,((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792)))));
+(243231_GSU3139,((224324_AQ_1477,228410_NE0018),(959_Bd2410,((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792))))));
+(((959_Bd2410,((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792)))),243231_GSU3139),(224324_AQ_1477,228410_NE0018));
+(224324_AQ_1477,(228410_NE0018,((959_Bd2410,((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792)))),243231_GSU3139)));
+((((959_Bd2410,((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792)))),243231_GSU3139),224324_AQ_1477),228410_NE0018);
+((((192222_Cj0177,208964_PA4705),(189518_LA1008,(243277_VC2004,74109_PBPRA2792))),(243231_GSU3139,(224324_AQ_1477,228410_NE0018))),959_Bd2410);
+((208964_PA4705,((189518_LA1008,(243277_VC2004,74109_PBPRA2792)),((243231_GSU3139,(224324_AQ_1477,228410_NE0018)),959_Bd2410))),192222_Cj0177);
+
+
+The minimum reconciliation cost is: 17
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[243277_VC2004, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[189518_LA1008, 208964_PA4705]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 189518, 57 times], [Most Frequent recipient --> n66, 57 times].
+LCA[189518_LA1008, 208964_PA4705]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].
+LCA[189518_LA1008, 208964_PA4705]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].
+LCA[192222_Cj0177, 959_Bd2410]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n43, 53 times], [Most Frequent recipient --> n66, 53 times].
+LCA[192222_Cj0177, 959_Bd2410]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n43, 100 times].
+LCA[208964_PA4705, 192222_Cj0177]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 192222, 51 times], [Most Frequent recipient --> n66, 51 times].
+LCA[208964_PA4705, 192222_Cj0177]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].
+LCA[224324_AQ_1477, 243231_GSU3139]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224324, 57 times], [Most Frequent recipient --> 224324, 43 times].
+LCA[243231_GSU3139, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n43, 100 times].
+LCA[243231_GSU3139, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n43, 100 times].
+LCA[243231_GSU3139, 74109_PBPRA2792]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].
+LCA[959_Bd2410, 228410_NE0018]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 228410, 52 times], [Most Frequent recipient --> 228410, 48 times].
+LCA[959_Bd2410, 228410_NE0018]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n43, 49 times], [Most Frequent recipient --> n43, 51 times].

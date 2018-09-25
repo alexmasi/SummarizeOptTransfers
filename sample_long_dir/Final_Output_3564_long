@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG3564/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((221109_OB2533,(83331_MT0475,100226_SCO1192)),190485_XCC0102),(266834_R02350,266835_mll6637));
+((221109_OB2533,(83331_MT0475,100226_SCO1192)),(190485_XCC0102,(266834_R02350,266835_mll6637)));
+(221109_OB2533,((83331_MT0475,100226_SCO1192),(190485_XCC0102,(266834_R02350,266835_mll6637))));
+(((190485_XCC0102,(266834_R02350,266835_mll6637)),221109_OB2533),(83331_MT0475,100226_SCO1192));
+(83331_MT0475,(100226_SCO1192,((190485_XCC0102,(266834_R02350,266835_mll6637)),221109_OB2533)));
+((((190485_XCC0102,(266834_R02350,266835_mll6637)),221109_OB2533),83331_MT0475),100226_SCO1192);
+(((266834_R02350,266835_mll6637),(221109_OB2533,(83331_MT0475,100226_SCO1192))),190485_XCC0102);
+(266834_R02350,(266835_mll6637,((221109_OB2533,(83331_MT0475,100226_SCO1192)),190485_XCC0102)));
+((((221109_OB2533,(83331_MT0475,100226_SCO1192)),190485_XCC0102),266834_R02350),266835_mll6637);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190485_XCC0102, 100226_SCO1192]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n98, 46 times], [Most Frequent recipient --> n98, 54 times].
+LCA[190485_XCC0102, 100226_SCO1192]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[221109_OB2533, 266835_mll6637]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190485, 30 times], [Most Frequent recipient --> n55, 28 times].
+LCA[221109_OB2533, 266835_mll6637]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 54 times], [Most Frequent recipient --> 221109, 46 times].
+LCA[221109_OB2533, 266835_mll6637]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n55, 40 times], [Most Frequent recipient --> n55, 60 times].
+LCA[221109_OB2533, 266835_mll6637]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[266834_R02350, 190485_XCC0102]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190485, 51 times], [Most Frequent recipient --> 190485, 49 times].
+LCA[266834_R02350, 190485_XCC0102]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n55, 100 times].
+LCA[83331_MT0475, 221109_OB2533]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].

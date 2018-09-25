@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG2389/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224324_AQ_2157,((262724_TTC1821,243230_DR1889),(188937_MA1926,(260799_BAS5079,(((103690_alr0511,269084_syc2478_d),(84588_SYNW2417,74547_PMT2210)),251221_gll3404)))));
+
+
+The minimum reconciliation cost is: 10
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[262724_TTC1821, 243230_DR1889]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n81, 100 times].
+LCA[103690_alr0511, 269084_syc2478_d]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n86, 100 times].
+LCA[84588_SYNW2417, 74547_PMT2210]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n85, 100 times].
+LCA[103690_alr0511, 74547_PMT2210]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n83, 100 times].
+LCA[103690_alr0511, 251221_gll3404]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n82, 100 times].
+LCA[260799_BAS5079, 251221_gll3404]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n82, 100 times], [Most Frequent recipient --> 260799, 100 times].
+LCA[188937_MA1926, 251221_gll3404]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n82, 100 times], [Most Frequent recipient --> 188937, 100 times].
+LCA[262724_TTC1821, 251221_gll3404]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n79, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224324_AQ_2157, 251221_gll3404]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n76, 100 times].

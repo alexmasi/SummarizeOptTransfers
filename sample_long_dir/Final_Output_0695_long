@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG0695/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((74109_PBPRA1742,(((243230_DRA0072,(224325_AF1536,882_DVU0883)),64091_VNG2115H),((83331_MT3292,4932_YPL156C),243277_VCA1011))),211586_SO2797),208964_PA1741);
+
+
+The minimum reconciliation cost is: 17
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[224325_AF1536, 882_DVU0883]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224325, 100 times], [Most Frequent recipient --> 882, 100 times].
+LCA[243230_DRA0072, 882_DVU0883]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224325, 100 times], [Most Frequent recipient --> 243230, 100 times].
+LCA[243230_DRA0072, 64091_VNG2115H]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n6, 100 times].
+LCA[83331_MT3292, 4932_YPL156C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 83331, 51 times], [Most Frequent recipient --> 4932, 51 times].
+LCA[83331_MT3292, 243277_VCA1011]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243277, 100 times], [Most Frequent recipient --> 83331, 51 times].
+LCA[243230_DRA0072, 243277_VCA1011]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243277, 100 times], [Most Frequent recipient --> n6, 100 times].
+LCA[74109_PBPRA1742, 243277_VCA1011]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n69, 100 times].
+LCA[74109_PBPRA1742, 211586_SO2797]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n67, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[74109_PBPRA1742, 208964_PA1741]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n66, 100 times].

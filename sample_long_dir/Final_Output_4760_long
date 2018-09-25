@@ -1,0 +1,39 @@
+Input file: ../raw-data/original_seqs/COG4760/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((100226_SCO3083,((190485_XCC0968,160492_Xf2760),260799_BAS2011)),(83331_MT1102,196627_cg1121));
+(100226_SCO3083,(((190485_XCC0968,160492_Xf2760),260799_BAS2011),(83331_MT1102,196627_cg1121)));
+(((83331_MT1102,196627_cg1121),100226_SCO3083),((190485_XCC0968,160492_Xf2760),260799_BAS2011));
+((190485_XCC0968,160492_Xf2760),(260799_BAS2011,((83331_MT1102,196627_cg1121),100226_SCO3083)));
+(190485_XCC0968,(160492_Xf2760,(260799_BAS2011,((83331_MT1102,196627_cg1121),100226_SCO3083))));
+(((260799_BAS2011,((83331_MT1102,196627_cg1121),100226_SCO3083)),190485_XCC0968),160492_Xf2760);
+((((83331_MT1102,196627_cg1121),100226_SCO3083),(190485_XCC0968,160492_Xf2760)),260799_BAS2011);
+
+
+The minimum reconciliation cost is: 6
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+LCA[83331_MT1102, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n99, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO3083, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[100226_SCO3083, 196627_cg1121]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n98, 100 times].
+LCA[190485_XCC0968, 100226_SCO3083]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n65, 50 times], [Most Frequent recipient --> n65, 50 times].
+LCA[190485_XCC0968, 100226_SCO3083]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n65, 100 times].
+LCA[260799_BAS2011, 160492_Xf2760]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n65, 100 times].
+LCA[83331_MT1102, 260799_BAS2011]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 260799, 48 times], [Most Frequent recipient --> 260799, 52 times].
+LCA[83331_MT1102, 260799_BAS2011]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n98, 43 times], [Most Frequent recipient --> n98, 57 times].

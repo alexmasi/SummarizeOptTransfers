@@ -1,0 +1,36 @@
+Input file: ../raw-data/original_seqs/COG4922/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(190304_FN1222,(176299_AGR_C_3631,((267608_RSc0616,190485_XCC0357),(74109_PBPRB0729,170187_SP1862))));
+(176299_AGR_C_3631,(((267608_RSc0616,190485_XCC0357),(74109_PBPRB0729,170187_SP1862)),190304_FN1222));
+((190304_FN1222,176299_AGR_C_3631),((267608_RSc0616,190485_XCC0357),(74109_PBPRB0729,170187_SP1862)));
+((267608_RSc0616,190485_XCC0357),((74109_PBPRB0729,170187_SP1862),(190304_FN1222,176299_AGR_C_3631)));
+(267608_RSc0616,(190485_XCC0357,((74109_PBPRB0729,170187_SP1862),(190304_FN1222,176299_AGR_C_3631))));
+((((74109_PBPRB0729,170187_SP1862),(190304_FN1222,176299_AGR_C_3631)),267608_RSc0616),190485_XCC0357);
+(((190304_FN1222,176299_AGR_C_3631),(267608_RSc0616,190485_XCC0357)),(74109_PBPRB0729,170187_SP1862));
+(74109_PBPRB0729,(170187_SP1862,((190304_FN1222,176299_AGR_C_3631),(267608_RSc0616,190485_XCC0357))));
+((((190304_FN1222,176299_AGR_C_3631),(267608_RSc0616,190485_XCC0357)),74109_PBPRB0729),170187_SP1862);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 9
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[176299_AGR_C_3631, 190304_FN1222]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 176299, 50 times], [Most Frequent recipient --> 176299, 50 times].
+LCA[190304_FN1222, 170187_SP1862]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 28 times], [Most Frequent recipient --> 74109, 25 times].
+LCA[190304_FN1222, 170187_SP1862]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 170187, 62 times], [Most Frequent recipient --> 170187, 38 times].
+LCA[190304_FN1222, 170187_SP1862]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 33 times], [Most Frequent recipient --> 176299, 21 times].
+LCA[190304_FN1222, 170187_SP1862]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 53 times], [Most Frequent recipient --> 190304, 47 times].
+LCA[267608_RSc0616, 176299_AGR_C_3631]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190485, 26 times], [Most Frequent recipient --> 267608, 25 times].
+LCA[267608_RSc0616, 176299_AGR_C_3631]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 57 times], [Most Frequent recipient --> 267608, 43 times].
+LCA[74109_PBPRB0729, 190485_XCC0357]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190485, 43 times], [Most Frequent recipient --> 190485, 57 times].
+LCA[74109_PBPRB0729, 190485_XCC0357]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 74109, 52 times], [Most Frequent recipient --> 74109, 48 times].

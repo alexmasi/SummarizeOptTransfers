@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG0534/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(186497_PF1850,(882_DVU2555,((184922_16671,(235279_HH0167,7955_ENSDARP00000061072)),(242619_PG1117,220668_lp_1386))));
+(882_DVU2555,(((184922_16671,(235279_HH0167,7955_ENSDARP00000061072)),(242619_PG1117,220668_lp_1386)),186497_PF1850));
+((186497_PF1850,882_DVU2555),((184922_16671,(235279_HH0167,7955_ENSDARP00000061072)),(242619_PG1117,220668_lp_1386)));
+((184922_16671,(235279_HH0167,7955_ENSDARP00000061072)),((242619_PG1117,220668_lp_1386),(186497_PF1850,882_DVU2555)));
+(184922_16671,((235279_HH0167,7955_ENSDARP00000061072),((242619_PG1117,220668_lp_1386),(186497_PF1850,882_DVU2555))));
+((((242619_PG1117,220668_lp_1386),(186497_PF1850,882_DVU2555)),184922_16671),(235279_HH0167,7955_ENSDARP00000061072));
+(235279_HH0167,(7955_ENSDARP00000061072,(((242619_PG1117,220668_lp_1386),(186497_PF1850,882_DVU2555)),184922_16671)));
+(((((242619_PG1117,220668_lp_1386),(186497_PF1850,882_DVU2555)),184922_16671),235279_HH0167),7955_ENSDARP00000061072);
+(((186497_PF1850,882_DVU2555),(184922_16671,(235279_HH0167,7955_ENSDARP00000061072))),(242619_PG1117,220668_lp_1386));
+(242619_PG1117,(220668_lp_1386,((186497_PF1850,882_DVU2555),(184922_16671,(235279_HH0167,7955_ENSDARP00000061072)))));
+((((186497_PF1850,882_DVU2555),(184922_16671,(235279_HH0167,7955_ENSDARP00000061072))),242619_PG1117),220668_lp_1386);
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 11
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[184922_16671, 882_DVU2555]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 184922, 20 times], [Most Frequent recipient --> 184922, 25 times].
+LCA[184922_16671, 882_DVU2555]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 184922, 53 times], [Most Frequent recipient --> 184922, 47 times].
+LCA[186497_PF1850, 220668_lp_1386]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 186497, 29 times], [Most Frequent recipient --> 882, 22 times].
+LCA[186497_PF1850, 220668_lp_1386]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 186497, 46 times], [Most Frequent recipient --> 186497, 54 times].
+LCA[186497_PF1850, 220668_lp_1386]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 220668, 28 times], [Most Frequent recipient --> 220668, 25 times].
+LCA[186497_PF1850, 220668_lp_1386]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 220668, 45 times], [Most Frequent recipient --> 220668, 55 times].
+LCA[235279_HH0167, 184922_16671]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 235279, 49 times], [Most Frequent recipient --> 235279, 51 times].
+LCA[242619_PG1117, 7955_ENSDARP00000061072]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 242619, 58 times], [Most Frequent recipient --> 242619, 42 times].
+LCA[242619_PG1117, 7955_ENSDARP00000061072]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 7955, 29 times], [Most Frequent recipient --> 184922, 25 times].
+LCA[242619_PG1117, 7955_ENSDARP00000061072]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 7955, 47 times], [Most Frequent recipient --> 7955, 53 times].
+LCA[882_DVU2555, 186497_PF1850]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 882, 59 times], [Most Frequent recipient --> 882, 41 times].

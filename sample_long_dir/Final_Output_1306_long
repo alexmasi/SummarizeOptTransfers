@@ -1,0 +1,33 @@
+Input file: ../raw-data/original_seqs/COG1306/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(221109_OB1209,(((224326_BB0165,243276_TP0083),189518_LA0916),190304_FN0456));
+(((224326_BB0165,243276_TP0083),189518_LA0916),(190304_FN0456,221109_OB1209));
+((224326_BB0165,243276_TP0083),(189518_LA0916,(190304_FN0456,221109_OB1209)));
+(((190304_FN0456,221109_OB1209),(224326_BB0165,243276_TP0083)),189518_LA0916);
+((221109_OB1209,((224326_BB0165,243276_TP0083),189518_LA0916)),190304_FN0456);
+
+
+The minimum reconciliation cost is: 6
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[224326_BB0165, 243276_TP0083]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n95, 100 times].
+LCA[224326_BB0165, 243276_TP0083]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n95, 100 times].
+LCA[224326_BB0165, 243276_TP0083]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n95, 100 times].
+LCA[224326_BB0165, 243276_TP0083]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n95, 100 times].
+LCA[224326_BB0165, 243276_TP0083]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n95, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190304_FN0456, 189518_LA0916]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n94, 100 times].
+LCA[221109_OB1209, 190304_FN0456]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 48 times], [Most Frequent recipient --> 190304, 52 times].
+LCA[221109_OB1209, 190304_FN0456]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 221109, 50 times], [Most Frequent recipient --> 221109, 50 times].
+LCA[224326_BB0165, 221109_OB1209]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n94, 52 times], [Most Frequent recipient --> n94, 48 times].
+LCA[224326_BB0165, 221109_OB1209]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n94, 100 times].

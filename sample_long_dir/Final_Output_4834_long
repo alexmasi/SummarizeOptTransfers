@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG4834/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(198214_SF0666,(((226185_EF1463,272626_lin1726),((160492_Xf1577,160492_Xf1682),266835_mlr8009)),209261_t1889));
+(((226185_EF1463,272626_lin1726),((160492_Xf1577,160492_Xf1682),266835_mlr8009)),(209261_t1889,198214_SF0666));
+((226185_EF1463,272626_lin1726),(((160492_Xf1577,160492_Xf1682),266835_mlr8009),(209261_t1889,198214_SF0666)));
+(226185_EF1463,(272626_lin1726,(((160492_Xf1577,160492_Xf1682),266835_mlr8009),(209261_t1889,198214_SF0666))));
+(((((160492_Xf1577,160492_Xf1682),266835_mlr8009),(209261_t1889,198214_SF0666)),226185_EF1463),272626_lin1726);
+(((209261_t1889,198214_SF0666),(226185_EF1463,272626_lin1726)),((160492_Xf1577,160492_Xf1682),266835_mlr8009));
+((160492_Xf1577,160492_Xf1682),(266835_mlr8009,((209261_t1889,198214_SF0666),(226185_EF1463,272626_lin1726))));
+(160492_Xf1577,(160492_Xf1682,(266835_mlr8009,((209261_t1889,198214_SF0666),(226185_EF1463,272626_lin1726)))));
+(((266835_mlr8009,((209261_t1889,198214_SF0666),(226185_EF1463,272626_lin1726))),160492_Xf1577),160492_Xf1682);
+((((209261_t1889,198214_SF0666),(226185_EF1463,272626_lin1726)),(160492_Xf1577,160492_Xf1682)),266835_mlr8009);
+((198214_SF0666,((226185_EF1463,272626_lin1726),((160492_Xf1577,160492_Xf1682),266835_mlr8009))),209261_t1889);
+
+
+The minimum reconciliation cost is: 15
+The total number of optimal rootings is: 11
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[160492_Xf1577, 272626_lin1726]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 160492, 55 times], [Most Frequent recipient --> 160492, 45 times].
+LCA[160492_Xf1577, 272626_lin1726]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272626, 56 times], [Most Frequent recipient --> 272626, 44 times].
+LCA[160492_Xf1577, 272626_lin1726]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 160492, 100 times].
+LCA[198214_SF0666, 209261_t1889]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].
+LCA[198214_SF0666, 209261_t1889]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].
+LCA[209261_t1889, 266835_mlr8009]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 28 times], [Most Frequent recipient --> 266835, 28 times].
+LCA[209261_t1889, 266835_mlr8009]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 54 times], [Most Frequent recipient --> 266835, 46 times].
+LCA[226185_EF1463, 198214_SF0666]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226185, 28 times], [Most Frequent recipient --> 272626, 23 times].
+LCA[226185_EF1463, 198214_SF0666]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226185, 54 times], [Most Frequent recipient --> 226185, 46 times].
+LCA[226185_EF1463, 198214_SF0666]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n73, 56 times], [Most Frequent recipient --> n73, 44 times].
+LCA[266835_mlr8009, 160492_Xf1682]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 160492, 100 times].

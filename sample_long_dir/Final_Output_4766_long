@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG4766/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(176299_AGR_pAT_480,(((212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090)),(209261_t0391,83333_b2460)),212717_CTC01443));
+(((212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090)),(209261_t0391,83333_b2460)),(212717_CTC01443,176299_AGR_pAT_480));
+((212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090)),((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480)));
+(212717_CTC02163,(((272626_lin1151,226185_EF1617),190304_FN0090),((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480))));
+((((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480)),212717_CTC02163),((272626_lin1151,226185_EF1617),190304_FN0090));
+((272626_lin1151,226185_EF1617),(190304_FN0090,(((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480)),212717_CTC02163)));
+(272626_lin1151,(226185_EF1617,(190304_FN0090,(((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480)),212717_CTC02163))));
+(((190304_FN0090,(((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480)),212717_CTC02163)),272626_lin1151),226185_EF1617);
+(((((209261_t0391,83333_b2460),(212717_CTC01443,176299_AGR_pAT_480)),212717_CTC02163),(272626_lin1151,226185_EF1617)),190304_FN0090);
+(((212717_CTC01443,176299_AGR_pAT_480),(212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090))),(209261_t0391,83333_b2460));
+(209261_t0391,(83333_b2460,((212717_CTC01443,176299_AGR_pAT_480),(212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090)))));
+((((212717_CTC01443,176299_AGR_pAT_480),(212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090))),209261_t0391),83333_b2460);
+((176299_AGR_pAT_480,((212717_CTC02163,((272626_lin1151,226185_EF1617),190304_FN0090)),(209261_t0391,83333_b2460))),212717_CTC01443);
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[176299_AGR_pAT_480, 212717_CTC01443]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 176299, 53 times], [Most Frequent recipient --> 212717, 53 times].
+LCA[176299_AGR_pAT_480, 212717_CTC01443]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[190304_FN0090, 226185_EF1617]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226185, 47 times], [Most Frequent recipient --> 226185, 53 times].
+LCA[209261_t0391, 190304_FN0090]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 49 times], [Most Frequent recipient --> 190304, 51 times].
+LCA[209261_t0391, 190304_FN0090]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].
+LCA[209261_t0391, 190304_FN0090]: [Speciations = 18, Duplications = 0, Transfers = 82], [Most Frequent mapping --> 212717, 42 times], [Most Frequent recipient --> 212717, 40 times].
+LCA[212717_CTC01443, 83333_b2460]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 59 times], [Most Frequent recipient --> n73, 59 times].
+LCA[212717_CTC01443, 83333_b2460]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n73, 100 times].
+LCA[212717_CTC02163, 176299_AGR_pAT_480]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC02163, 176299_AGR_pAT_480]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC02163, 176299_AGR_pAT_480]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[272626_lin1151, 212717_CTC02163]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272626, 55 times], [Most Frequent recipient --> 272626, 45 times].
+LCA[272626_lin1151, 212717_CTC02163]: [Speciations = 16, Duplications = 0, Transfers = 84], [Most Frequent mapping --> 226185, 30 times], [Most Frequent recipient --> 190304, 28 times].

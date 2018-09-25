@@ -1,0 +1,28 @@
+Input file: ../raw-data/original_seqs/COG5340/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(228410_NE1821,((64091_VNG6088C,64091_VNG5091C),64091_VNG5206C));
+((64091_VNG6088C,64091_VNG5091C),(64091_VNG5206C,228410_NE1821));
+(64091_VNG6088C,(64091_VNG5091C,(64091_VNG5206C,228410_NE1821)));
+(((64091_VNG5206C,228410_NE1821),64091_VNG6088C),64091_VNG5091C);
+((228410_NE1821,(64091_VNG6088C,64091_VNG5091C)),64091_VNG5206C);
+
+
+The minimum reconciliation cost is: 7
+The total number of optimal rootings is: 5
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[228410_NE1821, 64091_VNG5206C]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 64091, 51 times], [Most Frequent recipient --> 228410, 51 times].
+LCA[228410_NE1821, 64091_VNG5206C]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 64091, 100 times].
+LCA[64091_VNG5206C, 64091_VNG5091C]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 64091, 100 times].
+LCA[64091_VNG6088C, 228410_NE1821]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 64091, 100 times].
+LCA[64091_VNG6088C, 228410_NE1821]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 64091, 100 times].

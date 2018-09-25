@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG4538/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(176299_AGR_C_1343,((211586_SO3697,64091_VNG1917H),(243365_CV1765,190650_CC1951)));
+((211586_SO3697,64091_VNG1917H),((243365_CV1765,190650_CC1951),176299_AGR_C_1343));
+(211586_SO3697,(64091_VNG1917H,((243365_CV1765,190650_CC1951),176299_AGR_C_1343)));
+((((243365_CV1765,190650_CC1951),176299_AGR_C_1343),211586_SO3697),64091_VNG1917H);
+((176299_AGR_C_1343,(211586_SO3697,64091_VNG1917H)),(243365_CV1765,190650_CC1951));
+(243365_CV1765,(190650_CC1951,(176299_AGR_C_1343,(211586_SO3697,64091_VNG1917H))));
+(((176299_AGR_C_1343,(211586_SO3697,64091_VNG1917H)),243365_CV1765),190650_CC1951);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[176299_AGR_C_1343, 190650_CC1951]: [Speciations = 10, Duplications = 0, Transfers = 90], [Most Frequent mapping --> 176299, 51 times], [Most Frequent recipient --> 176299, 39 times].
+LCA[176299_AGR_C_1343, 190650_CC1951]: [Speciations = 36, Duplications = 0, Transfers = 64], [Most Frequent mapping --> n52, 36 times], [Most Frequent recipient --> 176299, 20 times].
+LCA[176299_AGR_C_1343, 190650_CC1951]: [Speciations = 58, Duplications = 0, Transfers = 42], [Most Frequent mapping --> n52, 58 times], [Most Frequent recipient --> 190650, 15 times].
+LCA[211586_SO3697, 176299_AGR_C_1343]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 211586, 55 times], [Most Frequent recipient --> 211586, 45 times].
+LCA[211586_SO3697, 176299_AGR_C_1343]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 64091, 23 times], [Most Frequent recipient --> 211586, 29 times].
+LCA[243365_CV1765, 64091_VNG1917H]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 53 times], [Most Frequent recipient --> 243365, 47 times].
+LCA[243365_CV1765, 64091_VNG1917H]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 64091, 53 times], [Most Frequent recipient --> 64091, 47 times].

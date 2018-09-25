@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG4287/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((267608_RSp0161,((243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429))),(190485_XCC2942,160492_Xf1384))),209261_t1463);
+(267608_RSp0161,(((243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429))),(190485_XCC2942,160492_Xf1384)),209261_t1463));
+((209261_t1463,267608_RSp0161),((243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429))),(190485_XCC2942,160492_Xf1384)));
+((243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429))),((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161)));
+(243365_CV1963,((234267_400016560,(243274_TM0945,117_RB5429)),((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161))));
+((((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161)),243365_CV1963),(234267_400016560,(243274_TM0945,117_RB5429)));
+(234267_400016560,((243274_TM0945,117_RB5429),(((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161)),243365_CV1963)));
+(((((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161)),243365_CV1963),234267_400016560),(243274_TM0945,117_RB5429));
+(243274_TM0945,(117_RB5429,((((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161)),243365_CV1963),234267_400016560)));
+((((((190485_XCC2942,160492_Xf1384),(209261_t1463,267608_RSp0161)),243365_CV1963),234267_400016560),243274_TM0945),117_RB5429);
+(((209261_t1463,267608_RSp0161),(243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429)))),(190485_XCC2942,160492_Xf1384));
+(190485_XCC2942,(160492_Xf1384,((209261_t1463,267608_RSp0161),(243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429))))));
+((((209261_t1463,267608_RSp0161),(243365_CV1963,(234267_400016560,(243274_TM0945,117_RB5429)))),190485_XCC2942),160492_Xf1384);
+
+
+The minimum reconciliation cost is: 17
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190485_XCC2942, 117_RB5429]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 117, 49 times], [Most Frequent recipient --> 117, 51 times].
+LCA[190485_XCC2942, 117_RB5429]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 234267, 31 times], [Most Frequent recipient --> 243274, 28 times].
+LCA[190485_XCC2942, 117_RB5429]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n60, 44 times], [Most Frequent recipient --> n60, 56 times].
+LCA[190485_XCC2942, 117_RB5429]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n65, 100 times].
+LCA[209261_t1463, 160492_Xf1384]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[209261_t1463, 160492_Xf1384]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n65, 100 times].
+LCA[209261_t1463, 160492_Xf1384]: [Speciations = 33, Duplications = 0, Transfers = 67], [Most Frequent mapping --> n60, 35 times], [Most Frequent recipient --> n65, 35 times].
+LCA[234267_400016560, 243365_CV1963]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 234267, 58 times], [Most Frequent recipient --> 234267, 42 times].
+LCA[243274_TM0945, 234267_400016560]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 46 times], [Most Frequent recipient --> 243274, 54 times].
+LCA[243365_CV1963, 267608_RSp0161]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[243365_CV1963, 267608_RSp0161]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].
+LCA[267608_RSp0161, 209261_t1463]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 209261, 56 times], [Most Frequent recipient --> n60, 56 times].
+LCA[267608_RSp0161, 209261_t1463]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n60, 100 times].

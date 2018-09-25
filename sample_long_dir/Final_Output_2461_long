@@ -1,0 +1,48 @@
+Input file: ../raw-data/original_seqs/COG2461/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+((((186497_PF0695,224325_AF0170),(((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200)),(242619_PG0686,190304_FN1655)),882_DVU2590);
+(((186497_PF0695,224325_AF0170),(((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200)),((242619_PG0686,190304_FN1655),882_DVU2590));
+((186497_PF0695,224325_AF0170),((((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200),((242619_PG0686,190304_FN1655),882_DVU2590)));
+(186497_PF0695,(224325_AF0170,((((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200),((242619_PG0686,190304_FN1655),882_DVU2590))));
+((((((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200),((242619_PG0686,190304_FN1655),882_DVU2590)),186497_PF0695),224325_AF0170);
+((((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170)),(((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200));
+(((273068_TTE2479,272623_LL1610),170187_SP0562),(234267_400064200,(((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170))));
+((273068_TTE2479,272623_LL1610),(170187_SP0562,(234267_400064200,(((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170)))));
+(273068_TTE2479,(272623_LL1610,(170187_SP0562,(234267_400064200,(((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170))))));
+(((170187_SP0562,(234267_400064200,(((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170)))),273068_TTE2479),272623_LL1610);
+(((234267_400064200,(((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170))),(273068_TTE2479,272623_LL1610)),170187_SP0562);
+(((((242619_PG0686,190304_FN1655),882_DVU2590),(186497_PF0695,224325_AF0170)),((273068_TTE2479,272623_LL1610),170187_SP0562)),234267_400064200);
+((882_DVU2590,((186497_PF0695,224325_AF0170),(((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200))),(242619_PG0686,190304_FN1655));
+(242619_PG0686,(190304_FN1655,(882_DVU2590,((186497_PF0695,224325_AF0170),(((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200)))));
+(((882_DVU2590,((186497_PF0695,224325_AF0170),(((273068_TTE2479,272623_LL1610),170187_SP0562),234267_400064200))),242619_PG0686),190304_FN1655);
+
+
+The minimum reconciliation cost is: 19
+The total number of optimal rootings is: 15
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[170187_SP0562, 272623_LL1610]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+LCA[186497_PF0695, 882_DVU2590]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n41, 50 times], [Most Frequent recipient --> n41, 50 times].
+LCA[186497_PF0695, 882_DVU2590]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[186497_PF0695, 882_DVU2590]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[186497_PF0695, 882_DVU2590]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n5, 100 times].
+LCA[234267_400064200, 170187_SP0562]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+LCA[242619_PG0686, 234267_400064200]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 242619, 52 times], [Most Frequent recipient --> 242619, 48 times].
+LCA[242619_PG0686, 234267_400064200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[242619_PG0686, 234267_400064200]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n41, 100 times].
+LCA[273068_TTE2479, 224325_AF0170]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n37, 53 times], [Most Frequent recipient --> 273068, 53 times].
+LCA[273068_TTE2479, 224325_AF0170]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n37, 59 times], [Most Frequent recipient --> n41, 59 times].
+LCA[273068_TTE2479, 224325_AF0170]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n37, 100 times].
+LCA[273068_TTE2479, 224325_AF0170]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n5, 100 times].
+LCA[882_DVU2590, 190304_FN1655]: [Speciations = 32, Duplications = 0, Transfers = 68], [Most Frequent mapping --> 190304, 32 times], [Most Frequent recipient --> 190304, 36 times].
+LCA[882_DVU2590, 190304_FN1655]: [Speciations = 46, Duplications = 0, Transfers = 54], [Most Frequent mapping --> n39, 46 times], [Most Frequent recipient --> n41, 29 times].

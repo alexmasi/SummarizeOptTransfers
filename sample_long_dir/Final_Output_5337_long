@@ -1,0 +1,24 @@
+Input file: ../raw-data/original_seqs/COG5337/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((224308_BSU10740,((188937_MA2203,196627_cg0079),234267_400048640)),224308_BSU36060),260799_BAS1899);
+
+
+The minimum reconciliation cost is: 11
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[188937_MA2203, 196627_cg0079]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 188937, 58 times], [Most Frequent recipient --> 196627, 58 times].
+LCA[188937_MA2203, 234267_400048640]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 234267, 53 times], [Most Frequent recipient --> 234267, 47 times].
+LCA[224308_BSU10740, 234267_400048640]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224308, 100 times], [Most Frequent recipient --> 234267, 53 times].
+LCA[224308_BSU10740, 224308_BSU36060]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 224308, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[224308_BSU10740, 260799_BAS1899]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n34, 100 times].

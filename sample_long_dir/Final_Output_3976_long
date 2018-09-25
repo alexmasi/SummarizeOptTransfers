@@ -1,0 +1,48 @@
+Input file: ../raw-data/original_seqs/COG3976/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(243276_TP0572,((100226_SCO1574,266835_mll6621),(220668_lp_0055,(220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488))))));
+((100226_SCO1574,266835_mll6621),((220668_lp_0055,(220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488)))),243276_TP0572));
+(100226_SCO1574,(266835_mll6621,((220668_lp_0055,(220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488)))),243276_TP0572)));
+((((220668_lp_0055,(220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488)))),243276_TP0572),100226_SCO1574),266835_mll6621);
+((243276_TP0572,(100226_SCO1574,266835_mll6621)),(220668_lp_0055,(220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488)))));
+(220668_lp_0055,((220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488))),(243276_TP0572,(100226_SCO1574,266835_mll6621))));
+(((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),(220668_lp_1425,((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488))));
+(220668_lp_1425,(((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488)),((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055)));
+((((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425),((212717_CTC01521,211586_SO1419),(212717_CTC00811,212717_CTC01488)));
+((212717_CTC01521,211586_SO1419),((212717_CTC00811,212717_CTC01488),(((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425)));
+(212717_CTC01521,(211586_SO1419,((212717_CTC00811,212717_CTC01488),(((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425))));
+((((212717_CTC00811,212717_CTC01488),(((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425)),212717_CTC01521),211586_SO1419);
+(((((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425),(212717_CTC01521,211586_SO1419)),(212717_CTC00811,212717_CTC01488));
+(212717_CTC00811,(212717_CTC01488,((((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425),(212717_CTC01521,211586_SO1419))));
+((((((243276_TP0572,(100226_SCO1574,266835_mll6621)),220668_lp_0055),220668_lp_1425),(212717_CTC01521,211586_SO1419)),212717_CTC00811),212717_CTC01488);
+
+
+The minimum reconciliation cost is: 21
+The total number of optimal rootings is: 15
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[100226_SCO1574, 243276_TP0572]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 100226, 53 times], [Most Frequent recipient --> 100226, 47 times].
+LCA[100226_SCO1574, 243276_TP0572]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 30 times], [Most Frequent recipient --> 243276, 33 times].
+LCA[212717_CTC00811, 211586_SO1419]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 211586, 52 times], [Most Frequent recipient --> 212717, 52 times].
+LCA[212717_CTC00811, 211586_SO1419]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC01521, 220668_lp_1425]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC01521, 220668_lp_1425]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[220668_lp_0055, 266835_mll6621]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266835, 54 times], [Most Frequent recipient --> 266835, 46 times].
+LCA[220668_lp_0055, 266835_mll6621]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 220668, 100 times].
+LCA[220668_lp_1425, 220668_lp_0055]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 220668, 100 times].
+LCA[243276_TP0572, 212717_CTC01488]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 56 times], [Most Frequent recipient --> 220668, 56 times].
+LCA[243276_TP0572, 212717_CTC01488]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 220668, 56 times], [Most Frequent recipient --> 220668, 44 times].
+LCA[243276_TP0572, 212717_CTC01488]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243276, 51 times], [Most Frequent recipient --> 243276, 49 times].
+LCA[243276_TP0572, 212717_CTC01488]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[243276_TP0572, 212717_CTC01488]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[243276_TP0572, 212717_CTC01488]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 220668, 100 times].

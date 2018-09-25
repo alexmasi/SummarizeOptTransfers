@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG3649/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(194439_CT1132,(189518_LA0686,((243274_TM1801,243365_CV1227),882_DVUA0132)));
+(189518_LA0686,(((243274_TM1801,243365_CV1227),882_DVUA0132),194439_CT1132));
+((194439_CT1132,189518_LA0686),((243274_TM1801,243365_CV1227),882_DVUA0132));
+((243274_TM1801,243365_CV1227),(882_DVUA0132,(194439_CT1132,189518_LA0686)));
+(243274_TM1801,(243365_CV1227,(882_DVUA0132,(194439_CT1132,189518_LA0686))));
+(((882_DVUA0132,(194439_CT1132,189518_LA0686)),243274_TM1801),243365_CV1227);
+(((194439_CT1132,189518_LA0686),(243274_TM1801,243365_CV1227)),882_DVUA0132);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[189518_LA0686, 194439_CT1132]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 189518, 60 times], [Most Frequent recipient --> 189518, 40 times].
+LCA[194439_CT1132, 882_DVUA0132]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 189518, 32 times], [Most Frequent recipient --> 882, 28 times].
+LCA[194439_CT1132, 882_DVUA0132]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 194439, 58 times], [Most Frequent recipient --> 194439, 42 times].
+LCA[194439_CT1132, 882_DVUA0132]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 882, 52 times], [Most Frequent recipient --> 882, 48 times].
+LCA[243274_TM1801, 189518_LA0686]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243274, 52 times], [Most Frequent recipient --> 243274, 48 times].
+LCA[243274_TM1801, 189518_LA0686]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 28 times], [Most Frequent recipient --> 243274, 28 times].
+LCA[882_DVUA0132, 243365_CV1227]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 243365, 53 times], [Most Frequent recipient --> 243365, 47 times].

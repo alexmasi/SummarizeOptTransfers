@@ -1,0 +1,32 @@
+Input file: ../raw-data/original_seqs/COG0463/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(224325_AF0599,(((190304_FN1094,260799_BAS1579),226186_BT0251),266834_RB0542));
+(((190304_FN1094,260799_BAS1579),226186_BT0251),(266834_RB0542,224325_AF0599));
+((190304_FN1094,260799_BAS1579),(226186_BT0251,(266834_RB0542,224325_AF0599)));
+(190304_FN1094,(260799_BAS1579,(226186_BT0251,(266834_RB0542,224325_AF0599))));
+(((226186_BT0251,(266834_RB0542,224325_AF0599)),190304_FN1094),260799_BAS1579);
+(((266834_RB0542,224325_AF0599),(190304_FN1094,260799_BAS1579)),226186_BT0251);
+((224325_AF0599,((190304_FN1094,260799_BAS1579),226186_BT0251)),266834_RB0542);
+
+
+The minimum reconciliation cost is: 12
+The total number of optimal rootings is: 7
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[190304_FN1094, 224325_AF0599]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 32 times], [Most Frequent recipient --> 226186, 30 times].
+LCA[190304_FN1094, 224325_AF0599]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 190304, 52 times], [Most Frequent recipient --> 190304, 48 times].
+LCA[190304_FN1094, 224325_AF0599]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224325, 33 times], [Most Frequent recipient --> 226186, 32 times].
+LCA[224325_AF0599, 266834_RB0542]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224325, 45 times], [Most Frequent recipient --> 224325, 55 times].
+LCA[224325_AF0599, 266834_RB0542]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 266834, 52 times], [Most Frequent recipient --> 266834, 48 times].
+LCA[226186_BT0251, 260799_BAS1579]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 260799, 60 times], [Most Frequent recipient --> 260799, 40 times].
+LCA[266834_RB0542, 226186_BT0251]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226186, 53 times], [Most Frequent recipient --> 226186, 47 times].

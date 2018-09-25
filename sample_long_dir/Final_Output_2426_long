@@ -1,0 +1,44 @@
+Input file: ../raw-data/original_seqs/COG2426/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((3702_AT2G02590_1,243164_DET0746),212717_CTC02518),(((186497_PF1775,272557_APE1041),224325_AF1696),(269084_syc0858_c,262724_TTC0186)));
+((3702_AT2G02590_1,243164_DET0746),(212717_CTC02518,(((186497_PF1775,272557_APE1041),224325_AF1696),(269084_syc0858_c,262724_TTC0186))));
+(3702_AT2G02590_1,(243164_DET0746,(212717_CTC02518,(((186497_PF1775,272557_APE1041),224325_AF1696),(269084_syc0858_c,262724_TTC0186)))));
+(((212717_CTC02518,(((186497_PF1775,272557_APE1041),224325_AF1696),(269084_syc0858_c,262724_TTC0186))),3702_AT2G02590_1),243164_DET0746);
+(((((186497_PF1775,272557_APE1041),224325_AF1696),(269084_syc0858_c,262724_TTC0186)),(3702_AT2G02590_1,243164_DET0746)),212717_CTC02518);
+(((186497_PF1775,272557_APE1041),224325_AF1696),((269084_syc0858_c,262724_TTC0186),((3702_AT2G02590_1,243164_DET0746),212717_CTC02518)));
+((186497_PF1775,272557_APE1041),(224325_AF1696,((269084_syc0858_c,262724_TTC0186),((3702_AT2G02590_1,243164_DET0746),212717_CTC02518))));
+(186497_PF1775,(272557_APE1041,(224325_AF1696,((269084_syc0858_c,262724_TTC0186),((3702_AT2G02590_1,243164_DET0746),212717_CTC02518)))));
+(((224325_AF1696,((269084_syc0858_c,262724_TTC0186),((3702_AT2G02590_1,243164_DET0746),212717_CTC02518))),186497_PF1775),272557_APE1041);
+((((269084_syc0858_c,262724_TTC0186),((3702_AT2G02590_1,243164_DET0746),212717_CTC02518)),(186497_PF1775,272557_APE1041)),224325_AF1696);
+((((3702_AT2G02590_1,243164_DET0746),212717_CTC02518),((186497_PF1775,272557_APE1041),224325_AF1696)),(269084_syc0858_c,262724_TTC0186));
+(269084_syc0858_c,(262724_TTC0186,(((3702_AT2G02590_1,243164_DET0746),212717_CTC02518),((186497_PF1775,272557_APE1041),224325_AF1696))));
+(((((3702_AT2G02590_1,243164_DET0746),212717_CTC02518),((186497_PF1775,272557_APE1041),224325_AF1696)),269084_syc0858_c),262724_TTC0186);
+
+
+The minimum reconciliation cost is: 18
+The total number of optimal rootings is: 13
+
+
+Reconciliation Data for Conserved Subtrees:
+
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[186497_PF1775, 212717_CTC02518]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 212717, 53 times], [Most Frequent recipient --> n80, 53 times].
+LCA[186497_PF1775, 212717_CTC02518]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n5, 58 times], [Most Frequent recipient --> n80, 58 times].
+LCA[186497_PF1775, 212717_CTC02518]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n5, 100 times].
+LCA[186497_PF1775, 212717_CTC02518]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n5, 100 times].
+LCA[212717_CTC02518, 243164_DET0746]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n80, 100 times].
+LCA[224325_AF1696, 272557_APE1041]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 272557, 54 times], [Most Frequent recipient --> n5, 54 times].
+LCA[269084_syc0858_c, 224325_AF1696]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n5, 100 times].
+LCA[269084_syc0858_c, 224325_AF1696]: [Speciations = 33, Duplications = 0, Transfers = 67], [Most Frequent mapping --> n80, 35 times], [Most Frequent recipient --> 269084, 35 times].
+LCA[3702_AT2G02590_1, 262724_TTC0186]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 3702, 54 times], [Most Frequent recipient --> n80, 54 times].
+LCA[3702_AT2G02590_1, 262724_TTC0186]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n80, 100 times].
+LCA[3702_AT2G02590_1, 262724_TTC0186]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n80, 100 times].
+LCA[3702_AT2G02590_1, 262724_TTC0186]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n80, 100 times].
+LCA[3702_AT2G02590_1, 262724_TTC0186]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n80, 100 times].

@@ -1,0 +1,40 @@
+Input file: ../raw-data/original_seqs/COG5492/reconciliation_files/input_file
+Duplication cost: 2, Transfer cost: 3, Loss cost: 1
+Sample Size for each Optimal Rooting: 100
+
+
+ ------------ All Optimal Rootings for Gene Tree 1 (Unrooted) -------------
+(((212717_CTC00747,(212717_CTC00750,(212717_CTC02157,212717_CTC00749))),212717_CTC00770),((206672_BL0146,((((((187410_y2199,187410_y2205),(198214_SF0710,198214_SF1892)),((224308_BSU11990,204669_Acid345_2284),211586_SO2464)),237895_Chro_30098),272626_lin2385),93061_SAOUHSC_01528)),((226185_EF0123,(520_BP3369,(267608_RSc1689,74109_PBPRB1280))),(226186_BT0142,226185_EF2005))));
+
+
+The minimum reconciliation cost is: 46
+The total number of optimal rootings is: 1
+
+
+Reconciliation Data for Conserved Subtrees:
+
+LCA[212717_CTC02157, 212717_CTC00749]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC00750, 212717_CTC00749]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC00747, 212717_CTC00749]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[212717_CTC00747, 212717_CTC00770]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 212717, 100 times].
+LCA[187410_y2199, 187410_y2205]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 187410, 100 times].
+LCA[198214_SF0710, 198214_SF1892]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 198214, 100 times].
+LCA[187410_y2199, 198214_SF1892]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n72, 100 times].
+LCA[224308_BSU11990, 204669_Acid345_2284]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224308, 73 times], [Most Frequent recipient --> 204669, 100 times].
+LCA[224308_BSU11990, 211586_SO2464]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 224308, 42 times], [Most Frequent recipient --> 211586, 100 times].
+LCA[187410_y2199, 211586_SO2464]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n34, 41 times], [Most Frequent recipient --> n72, 100 times].
+LCA[187410_y2199, 237895_Chro_30098]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n33, 61 times], [Most Frequent recipient --> 237895, 100 times].
+LCA[187410_y2199, 272626_lin2385]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n32, 100 times].
+LCA[187410_y2199, 93061_SAOUHSC_01528]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n31, 100 times].
+LCA[206672_BL0146, 93061_SAOUHSC_01528]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> n31, 100 times], [Most Frequent recipient --> 206672, 100 times].
+LCA[267608_RSc1689, 74109_PBPRB1280]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 267608, 100 times], [Most Frequent recipient --> 74109, 100 times].
+LCA[520_BP3369, 74109_PBPRB1280]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n61, 100 times].
+LCA[226185_EF0123, 74109_PBPRB1280]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226185, 100 times], [Most Frequent recipient --> n61, 100 times].
+LCA[226186_BT0142, 226185_EF2005]: [Speciations = 0, Duplications = 0, Transfers = 100], [Most Frequent mapping --> 226185, 100 times], [Most Frequent recipient --> 226186, 100 times].
+LCA[226185_EF0123, 226185_EF2005]: [Speciations = 0, Duplications = 100, Transfers = 0], [Most Frequent mapping --> 226185, 100 times].
+LCA[206672_BL0146, 226185_EF2005]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n30, 100 times].
+
+
+Reconciliation Data for Root Cluster:
+
+LCA[212717_CTC00747, 226185_EF2005]: [Speciations = 100, Duplications = 0, Transfers = 0], [Most Frequent mapping --> n25, 100 times].
